@@ -31,7 +31,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  return <Redirect to='/docs/workshop' />;
+  return <Redirect to='/workshop' />;
   // const {siteConfig} = useDocusaurusContext();
   // return (
   //   <Layout
