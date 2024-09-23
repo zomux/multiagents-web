@@ -46,10 +46,9 @@ The workshop features invited talks, oral presentations, a lightning talk sessio
 
 - Alborz Geramifard (Meta)
 - Alex Marin (Microsoft)
-- Juan Pino (Meta/FAIR)
 - Raphael Shu (Amazon AWS GenAI)
 - Tao Yu (The University of Hong Kong)
-- Weiyan Shi (Stanford University)
+- Weiyan Shi (Northeastern University)
 - Yi Zhang (Amazon AWS GenAI)
 
 ## Contact:
