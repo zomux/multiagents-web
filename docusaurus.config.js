@@ -83,10 +83,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration',
-        logo: {
-          alt: 'WMAC logo',
-          src: 'img/logo_small.png',
-        },
+        // logo: {
+        //   alt: 'WMAC logo',
+        //   src: 'img/logo_small.png',
+        // },
         items: [
           // {
           //   type: 'docSidebar',
