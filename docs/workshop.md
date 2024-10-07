@@ -31,7 +31,7 @@ Please submit your work via: [OpenReview Submission Link](https://openreview.net
 ## Important Dates:
 
 - Submission deadline: **November 24, 2024 AOE**
-- Notification of acceptance: December 9, 2024
+- Notification of acceptance: December 9, 2024 
 - Early Workshop Registeration: Coming soon
 - Camera Ready Deadline: Coming soon
 - Workshop date: March 3rd or March 4th ( to be determined )
@@ -61,7 +61,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 | 17:20 | 17:30 | 10 mins  | Award & Closing Remarks       |
 
 
-## Imvited Speakers
+## Invited Speakers
 
 We will announce the list of invited speakers soon.
 
