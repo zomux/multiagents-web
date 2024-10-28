@@ -25,6 +25,11 @@ We welcome submissions on topics including, but not limited to:
 
 We welcome both short papers (up to 4 pages) and long papers (up to 8 pages) following the AAAI format. Submissions may include recently published work, under-review papers, work in progress, and position papers. All submissions will undergo peer review through a single-blind process. While workshop publication is non-archival, accepted papers will be featured on our website with author permission.
 
+Notes:
+
+- Please submit your paper with author names anonymized.
+
+
 ## Submission site:
 Please submit your work via: [OpenReview Submission Link](https://openreview.net/group?id=AAAI.org/2025/Workshop/WMAC)
 
