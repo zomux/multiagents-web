@@ -80,7 +80,7 @@ const config = {
         // respectPrefersColorScheme: true,
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
       navbar: {
         title: 'AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration',
         // logo: {
