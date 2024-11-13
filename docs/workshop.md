@@ -4,6 +4,10 @@ hide_table_of_contents: true
 title: Overview
 ---
 
+:::info
+We updated invited speakers for the workshop.
+:::
+
 # Call for Participation
 
 We invite submissions to the **AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration**, to be held in Philadelphia during the AAAI 2025 conference (February 25 - March 4, 2025).
@@ -40,6 +44,15 @@ Please submit your work via: [OpenReview Submission Link](https://openreview.net
 - Early Workshop Registeration: Coming soon
 - Camera Ready Deadline: Coming soon
 - Workshop date: March 3rd or March 4th ( to be determined )
+
+## Invited Speakers
+
+Following are confirmed invited speakers, ordered by last name:
+
+1. **Vivian Chen**, Professor, National Taiwan University
+2. **Kyunghyun Cho**, Professor, New York University
+3. **Dilek Hakkani-Tür**, Professor, University of Illinois Urbana-Champaign
+4. **Katia Sycara**, Professor, Carnegie Mellon University
 
 ## Workshop Agenda
 The workshop features invited talks, oral presentations, a lightning talk session, poster session, and panel discussion. More details on invited speakers and workshop agenda can be found on our website.
