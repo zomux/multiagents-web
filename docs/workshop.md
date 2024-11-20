@@ -5,6 +5,7 @@ title: Overview
 ---
 
 :::info
+(11/20) We updated invited speakers for the workshop and added notes for submission.
 (11/13) We updated invited speakers for the workshop.
 :::
 
@@ -29,9 +30,10 @@ We welcome submissions on topics including, but not limited to:
 
 We welcome both short papers (up to 4 pages) and long papers (up to 8 pages) following the AAAI format. Submissions may include recently published work, under-review papers, work in progress, and position papers. All submissions will undergo peer review through a single-blind process. While workshop publication is non-archival, accepted papers will be featured on our website with author permission.
 
-Notes:
-
+:::info
 - Please submit your paper with author names anonymized.
+- The page limit (4 pages for short and 8 pages for long papers) does not include references or appendices. The references and appendices can have unlimited number of pages.
+:::
 
 
 ## Submission site:
@@ -51,8 +53,9 @@ Following are confirmed invited speakers, ordered by last name:
 
 1. **Vivian Chen**, Professor, National Taiwan University
 2. **Kyunghyun Cho**, Professor, New York University
-3. **Dilek Hakkani-Tür**, Professor, University of Illinois Urbana-Champaign
-4. **Katia Sycara**, Professor, Carnegie Mellon University
+3. **Yilun Du**, Google DeepMind
+4. **Dilek Hakkani-Tür**, Professor, University of Illinois Urbana-Champaign
+5. **Katia Sycara**, Professor, Carnegie Mellon University
 
 ## Workshop Agenda
 The workshop features invited talks, oral presentations, a lightning talk session, poster session, and panel discussion. More details on invited speakers and workshop agenda can be found on our website.
@@ -78,12 +81,6 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 | 17:00 | 17:20 | 20 mins  | Oral Presentation - Paper 3   |
 | 17:20 | 17:30 | 10 mins  | Award & Closing Remarks       |
 
-
-## Invited Speakers
-
-We will announce the list of invited speakers soon.
-
-Questions for the panels:  `coming soon`
 
 ## Attendance
 
