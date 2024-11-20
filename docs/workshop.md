@@ -5,8 +5,8 @@ title: Overview
 ---
 
 :::info
-(11/20) We updated invited speakers for the workshop and added notes for submission.
-(11/13) We updated invited speakers for the workshop.
+- (11/20) We updated invited speakers for the workshop and added notes for submission.
+- (11/13) We updated invited speakers for the workshop.
 :::
 
 # Call for Participation
