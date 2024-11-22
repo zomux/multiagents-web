@@ -36,6 +36,8 @@ We welcome both short papers (up to 4 pages) and long papers (up to 8 pages) fol
 - The page limit (4 pages for short and 8 pages for long papers) does not include references or appendices. The references and appendices can have unlimited number of pages.
 :::
 
+**More details on review process** We have configured the OpenReview system so that the chairs can see the author names and assign reviewers accordingly. However, when the papers are reviewed, the author names will be blind to paper reviewers.
+
 
 ## Submission site:
 Please submit your work via: [OpenReview Submission Link](https://openreview.net/group?id=AAAI.org/2025/Workshop/WMAC)
