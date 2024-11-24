@@ -4,6 +4,10 @@ hide_table_of_contents: true
 title: Overview
 ---
 
+:::warning
+(11/24) Due to multiple requests, we decided to extend the submission deadline by 3 days to November 27th (AOE). The date for notification of acceptance is also adjusted accordingly.
+:::
+
 :::info
 - (11/22) Please contact pc@multiagents.org if you have any question on submission.
 - (11/20) We updated invited speakers for the workshop and added notes for submission.
@@ -44,8 +48,8 @@ Please submit your work via: [OpenReview Submission Link](https://openreview.net
 
 ## Important Dates:
 
-- Submission deadline: **November 24, 2024 AOE**
-- Notification of acceptance: December 9, 2024 
+- Submission deadline: ~~November 24, 2024 AOE~~ **November 27, 2024 AOE**
+- Notification of acceptance: ~~December 9, 2024~~ December 17, 2024 
 - Early Workshop Registeration: Coming soon
 - Camera Ready Deadline: Coming soon
 - Workshop date: March 3rd or March 4th ( to be determined )
