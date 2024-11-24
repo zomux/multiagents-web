@@ -4,7 +4,7 @@ hide_table_of_contents: true
 title: Overview
 ---
 
-:::warning
+:::info
 (11/24) Due to multiple requests, we decided to extend the submission deadline by 3 days to November 27th (AOE). The date for notification of acceptance is also adjusted accordingly.
 :::
 
