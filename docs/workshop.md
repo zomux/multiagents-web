@@ -5,10 +5,12 @@ title: Overview
 ---
 
 :::info
-(11/24) Due to multiple requests, we decided to extend the submission deadline by 3 days to November 27th (AOE). The date for notification of acceptance is also adjusted accordingly.
+(12/1) To reviewers: Review deadline is Dec 13th. Please let us know if you cannot submit your review by then.
 :::
 
 :::info
+- (11/30) We have assigned reviewers for the submitted papers. Reviewers will be notified via email, review deadline is Dec 13th.
+- (11/24) Due to multiple requests, we decided to extend the submission deadline by 3 days to November 27th (AOE). The date for notification of acceptance is also adjusted accordingly.
 - (11/22) Please contact pc@multiagents.org if you have any question on submission.
 - (11/20) We updated invited speakers for the workshop and added notes for submission.
 - (11/13) We updated invited speakers for the workshop.
@@ -42,13 +44,20 @@ We welcome both short papers (up to 4 pages) and long papers (up to 8 pages) fol
 
 **More details on review process** We have configured the OpenReview system so that the chairs can see the author names and assign reviewers accordingly. However, when the papers are reviewed, the author names will be blind to paper reviewers.
 
-
 ## Submission site:
 Please submit your work via: [OpenReview Submission Link](https://openreview.net/group?id=AAAI.org/2025/Workshop/WMAC)
+
+## Review Guidelines:
+As WMAC 2025 will be hosted at AAAI, we would like to remind reviewers to follow AAAI review policy that all submissions have to be kept confidential. In your review, please be explicit about the pros and cons and provide constructive feedback for the authors.
+
+The submitted papers cannot be uploaded into any system that does not ensure that they are not shared with others. This includes also prompting Large Language Models with papers or parts of them, because these systems may disclose part of the prompt to other users.
+
+We would also like to remind reviewers that they are fully responsible for the entire content of their reviews, so tools can be used to improve the wording of the review but not to generate its content.
 
 ## Important Dates:
 
 - Submission deadline: ~~November 24, 2024 AOE~~ **November 27, 2024 AOE**
+- Paper Review Deadline: December 13, 2024
 - Notification of acceptance: ~~December 9, 2024~~ December 18, 2024 
 - Early Workshop Registeration: Coming soon
 - Camera Ready Deadline: Coming soon
