@@ -5,10 +5,11 @@ title: Overview
 ---
 
 :::info
-(12/1) To reviewers: Review deadline is Dec 13th. Please let us know if you cannot submit your review by then.
+- (12/17) All paper decisions and reviews have been released. For accepted papers, we will send out another email notifying the presentation format and camera-ready deadline. Please note that early registration of AAAI 2025 is now open until 12/19 (11:59 PM ET), please take your time to register. Make sure your registration covers the workshop session for WMAC 2025. For students presenting at the workshop, if you require waiver of the workshop registration fee, please contact us.
 :::
 
 :::info
+- (12/1) To reviewers: Review deadline is Dec 13th. Please let us know if you cannot submit your review by then.
 - (11/30) We have assigned reviewers for the submitted papers. Reviewers will be notified via email, review deadline is Dec 13th.
 - (11/24) Due to multiple requests, we decided to extend the submission deadline by 3 days to November 27th (AOE). The date for notification of acceptance is also adjusted accordingly.
 - (11/22) Please contact pc@multiagents.org if you have any question on submission.
@@ -61,7 +62,7 @@ We would also like to remind reviewers that they are fully responsible for the e
 - Notification of acceptance: ~~December 9, 2024~~ December 18, 2024 
 - Early Workshop Registeration: Coming soon
 - Camera Ready Deadline: Coming soon
-- Workshop date: March 3rd or March 4th ( to be determined )
+- Workshop date: March 4th
 
 ## Invited Speakers
 
