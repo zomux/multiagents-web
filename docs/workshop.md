@@ -37,9 +37,9 @@ We welcome submissions on topics including, but not limited to:
 
 ## Important Dates:
 
-- ~~Submission deadline: November 24, 2024 AOE **November 27, 2024 AOE** ~~ 
+- ~~Submission deadline: November 24, 2024 AOE -> November 27, 2024 AOE~~ 
 - ~~Paper Review Deadline: December 13, 2024~~
-- ~~Notification of acceptance: December 9, 2024 **December 16, 2024** ~~ 
+- ~~Notification of acceptance: December 9, 2024 -> December 16, 2024~~ 
 - Paper link submission deadline: Coming soon
 - Workshop date: March 4th
 
