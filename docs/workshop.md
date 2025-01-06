@@ -4,7 +4,7 @@ hide_table_of_contents: true
 title: Overview
 ---
 
-:::infow
+:::info
 - (1/6) Updated with full information of accepted papers and invited speakers. We will update the workshopagenda soon.
 :::
 
