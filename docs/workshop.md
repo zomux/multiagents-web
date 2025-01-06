@@ -18,9 +18,9 @@ title: Overview
 - (11/13) We updated invited speakers for the workshop.
 :::
 
-# Call for Participation
+# WMAC 2025: AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration
 
-We invite submissions to the **AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration**, to be held in Philadelphia during the AAAI 2025 conference (February 25 - March 4, 2025).
+We invite participants to the **AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration**, to be held in Philadelphia during the AAAI 2025 conference (February 25 - March 4, 2025).
 
 ## Overview:
 This full-day workshop seeks to ignite discussion on cutting-edge research areas and challenges associated with multi-agent collaboration driven by large language models (LLMs). As LLMs continue to showcase the ability to coordinate multiple AI agents for complex problem-solving, the workshop will delve into pivotal open research questions that advance the understanding and potential of LLM-based multi-agent collaboration.
@@ -37,9 +37,9 @@ We welcome submissions on topics including, but not limited to:
 
 ## Important Dates:
 
-- Submission deadline: ~~November 24, 2024 AOE~~ **November 27, 2024 AOE**
-- Paper Review Deadline: December 13, 2024
-- Notification of acceptance: ~~December 9, 2024~~ December 16, 2024 
+- ~~Submission deadline: November 24, 2024 AOE **November 27, 2024 AOE** ~~ 
+- ~~Paper Review Deadline: December 13, 2024~~
+- ~~Notification of acceptance: December 9, 2024 **December 16, 2024** ~~ 
 - Paper link submission deadline: Coming soon
 - Workshop date: March 4th
 
