@@ -164,25 +164,25 @@ The workshop features invited talks, oral presentations, a lightning talk sessio
 
 The table below shows a tentative workshop agenda. Note that the actual agenda will be adjusted according to the conference schedule.
 
-| Start | End   | Duration |                          |
-|-------|-------|----------|-------------------------------|
-| 9:00  | 9:05  | 5 mins   | Opening Remarks               |
-| 9:05  | 9:50  | 45 mins  | Invited Talk 1      |
-| 9:50  | 10:10 | 20 mins  | Oral Presentation - Paper 1   |
-| 10:10 | 10:25 | 15 mins  | Coffee Break                  |
-| 10:25 | 11:10 | 45 mins  | Invited Talk  2      |
-| 11:10 | 11:30 | 20 mins  | Lightning Talk Session        |
-| 11:30 | 12:30 | 60 mins  | Poster Session                |
-| 12:30 | 13:50 | 80 mins  | Lunch Break                   |
-| 13:50 | 14:35 | 45 mins  | Invited Talk 3      |
-| 14:35 | 15:20 | 45 mins  | Invited Talk 4      |
-| 15:20 | 15:35 | 15 mins  | Coffee Break                  |
-| 15:35 | 15:55 | 20 mins  | Oral Presentation - Paper 2   |
-| 15:55 | 16:45 | 50 mins  | Panel Discussion              |
-| 16:45 | 17:00 | 15 mins  | Coffee Break                  |
-| 17:00 | 17:20 | 20 mins  | Oral Presentation - Paper 3   |
-| 17:20 | 17:30 | 10 mins  | Award & Closing Remarks       |
 
+| **Time**         | **Duration** | **Session**                             |
+|-------------------|--------------|-----------------------------------------|
+| **9:00 – 9:05**  | 5 mins       | **Opening Remarks**                     |
+| **9:05 – 9:40**  | 35 mins      | **Invited Talk 1**                      |
+| **9:40 – 10:15** | 35 mins      | **Invited Talk 2**                      |
+| **10:15 – 10:30**| 15 mins      | **Oral Presentation – Paper 1**         |
+| **10:30 – 11:00**| 30 mins      | **Break** (Light refreshments)          |
+| **11:00 – 11:15**| 15 mins      | **Oral Presentation – Paper 2**         |
+| **11:15 – 11:35**| 20 mins      | **Lightning Talk Session**              |
+| **11:35 – 12:30**| 55 mins      | **Poster Session**                      |
+| **12:30 – 14:00**| 90 mins      | **Lunch**                               |
+| **14:00 – 14:35**| 35 mins      | **Invited Talk 3**                      |
+| **14:35 – 15:10**| 35 mins      | **Invited Talk 4**                      |
+| **15:10 – 15:25**| 15 mins      | **Oral Presentation – Paper 3**         |
+| **15:25 – 15:30**| 5 mins       | **Buffer Time**                         |
+| **15:30 – 16:00**| 30 mins      | **Break** (Light refreshments)          |
+| **16:00 – 16:45**| 45 mins      | **Panel Discussion**                    |
+| **16:45 – 17:00**| 15 mins      | **Award & Closing Remarks**             |
 
 ## Attendance
 
