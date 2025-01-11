@@ -70,13 +70,6 @@ Following are confirmed invited speakers, ordered by last name:
   </div>
 
   <div className="speaker-card" style={{border: '1px solid #eee', borderRadius: '8px', padding: '1rem', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}}>
-    <img src="/2025_speakers/dilek_hakkani_tur.png" alt="Dilek Hakkani-Tür" style={{width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px'}}/>
-    <h3>Dilek Hakkani-Tür</h3>
-    <p style={{fontSize: '0.9rem'}}><em>Professor, University of Illinois Urbana-Champaign</em></p>
-    <p style={{fontSize: '0.9rem'}}>Dilek Hakkani-Tür is a Professor of Computer Science at University of Illinois Urbana-Champaign and an Amazon Scholar. Her research interests include conversational AI, natural language and speech processing, spoken dialogue systems, and machine learning for language processing. She has over 100 patents that were granted and co-authored more than 300 papers in natural language and speech processing. She received several best paper awards and served as an associate editor and editor-in-chief for IEEE Transactions on Audio, Speech and Language Processing. She is a fellow of the IEEE (2014), ISCA (2014), and ACL (2024).</p>
-  </div>
-
-  <div className="speaker-card" style={{border: '1px solid #eee', borderRadius: '8px', padding: '1rem', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}}>
     <img src="/2025_speakers/katia_sycara.png" alt="Katia Sycara" style={{width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px'}}/>
     <h3>Katia Sycara</h3>
     <p style={{fontSize: '0.9rem'}}><em>Professor, Carnegie Mellon University</em></p>
