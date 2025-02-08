@@ -217,6 +217,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
   <div className="organizer-card" style={{textAlign: 'center', padding: '1rem'}}>
     <img src="/2025_organizers/raphael_shu.jpeg" alt="Raphael Shu" style={{width: '180px', height: '180px', objectFit: 'cover', borderRadius: '50%', margin: '0 auto'}}/>
     <h4 style={{margin: '1rem 0 0.5rem'}}>Raphael Shu</h4>
+    <div style={{margin: '-0.3rem 0 0.5rem'}}><span style={{display: 'inline-block', fontSize: '0.7rem', padding: '2px 8px', backgroundColor: '#4a90e2', color: 'white', borderRadius: '12px'}}>Workshop Chair</span></div>
     <p style={{fontSize: '0.9rem', color: '#666'}}>Amazon AWS GenAI</p>
   </div>
 
