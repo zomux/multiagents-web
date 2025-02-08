@@ -177,7 +177,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 | **Time**         | **Duration** | **Session**                             |
 |-------------------|--------------|-----------------------------------------|
 | **9:00 – 9:05**  | 5 mins       | **Opening Remarks**                     |
-| **9:05 – 9:40**  | 35 mins      | **Invited Talk 1 - Yilun Du**                      |
+| **9:05 – 9:40**  | 35 mins      | **Invited Talk 1 - Yilun Du**<br/>*Reasoning with Language Models through Multiagent Collaboration*                      |
 | **9:40 – 10:15** | 35 mins      | **Invited Talk 2 - Kyunghyun Cho**                      |
 | **10:15 – 10:30**| 15 mins      | **Oral Presentation – Paper 1**         |
 | **10:30 – 11:00**| 30 mins      | **Break** (Light refreshments)          |
@@ -186,7 +186,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 | **11:35 – 12:30**| 55 mins      | **Poster Session**                      |
 | **12:30 – 14:00**| 90 mins      | **Lunch**                               |
 | **14:00 – 14:35**| 35 mins      | **Invited Talk 3 - Vivian Chen**                      |
-| **14:35 – 15:10**| 35 mins      | **Invited Talk 4 - Katia Sycara**                      |
+| **14:35 – 15:10**| 35 mins      | **Invited Talk 4 - Katia Sycara**<br/>*LLM based Teamwork: Promises and Challenges*                      |
 | **15:10 – 15:25**| 15 mins      | **Oral Presentation – Paper 3**         |
 | **15:25 – 15:30**| 5 mins       | **Buffer Time**                         |
 | **15:30 – 16:00**| 30 mins      | **Break** (Light refreshments)          |
