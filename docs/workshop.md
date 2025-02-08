@@ -5,10 +5,22 @@ title: Overview
 ---
 
 :::info
-- (1/6) Updated with full information of accepted papers and invited speakers. We will update the workshopagenda soon.
+<div style={{display: 'flex', alignItems: 'center', gap: '2rem'}}>
+  <div style={{flex: '1', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
+    **On-site workshop attendance instructions:**
+
+    WMAC 2025 will be held on March 4, 2025. Workshop room is **Room 123** (Pennsylvania Convention Center).
+  </div>
+  <div style={{flexShrink: '0'}}>
+    <img src="/2025_artifacts/direction.png" alt="Direction to Room 123" style={{width: '500px', maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}}/>
+  </div>
+</div>
 :::
 
+
 :::info
+- (2/8) Updated accepted papers for WMAC 2025.
+- (1/6) Updated with full information of accepted papers and invited speakers. We will update the workshopagenda soon.
 - (12/17) All paper decisions and reviews have been released. For accepted papers, we will send out another email notifying the presentation format and camera-ready deadline. Please note that early registration of AAAI 2025 is now open until 12/19 (11:59 PM ET), please take your time to register. Make sure your registration covers the workshop session for WMAC 2025. For students presenting at the workshop, if you require waiver of the workshop registration fee, please contact us.
 - (12/1) To reviewers: Review deadline is Dec 13th. Please let us know if you cannot submit your review by then.
 - (11/30) We have assigned reviewers for the submitted papers. Reviewers will be notified via email, review deadline is Dec 13th.
@@ -20,7 +32,7 @@ title: Overview
 
 # WMAC 2025: AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration
 
-We invite participants to the **AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration**, to be held in Philadelphia during the AAAI 2025 conference (February 25 - March 4, 2025).
+We invite participants to the **AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration**, to be held in Philadelphia during the AAAI 2025 conference on March 4, 2025. Workshop room is **Room 123**.
 
 ## Overview:
 This full-day workshop seeks to ignite discussion on cutting-edge research areas and challenges associated with multi-agent collaboration driven by large language models (LLMs). As LLMs continue to showcase the ability to coordinate multiple AI agents for complex problem-solving, the workshop will delve into pivotal open research questions that advance the understanding and potential of LLM-based multi-agent collaboration.
@@ -40,7 +52,7 @@ We welcome submissions on topics including, but not limited to:
 - ~~Submission deadline: November 24, 2024 AOE -> November 27, 2024 AOE~~ 
 - ~~Paper Review Deadline: December 13, 2024~~
 - ~~Notification of acceptance: December 9, 2024 -> December 16, 2024~~ 
-- Paper link submission deadline: Coming soon
+- ~~Paper link submission deadline: January 31, 2025~~
 - Workshop date: March 4th
 
 ## Invited Speakers
@@ -79,23 +91,20 @@ Following are confirmed invited speakers, ordered by last name:
 
 ## Accepted Papers
 
-:::info
-- Links to the accepted papers will be added in this section.
-:::
 
 <div style={{margin: '2rem 0'}}>
   <h3 style={{marginBottom: '1.5rem', color: '#2e3440', borderBottom: '2px solid #3b4252', paddingBottom: '0.5rem'}}>Oral Presentations</h3>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem'}}>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Improving Multi-Agent Debate with Sparse Communication Topology</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2406.11776" target="_blank">Improving Multi-Agent Debate with Sparse Communication Topology</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yunxuan Li, Yibing Du, Jiageng Zhang, Le Hou, Peter Grabowski, Yeqing Li, Eugene Ie</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Talking Vehicles: Cooperative Driving via Natural Language</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/talking_vehicles_cooperative_driving_via_natural_language.pdf" target="_blank">Talking Vehicles: Cooperative Driving via Natural Language</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G Allievi, Hang Qiu, Peter Stone</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Aligning Compound AI Systems via System-level DPO</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/aligning_compound_ai_systems_via_system_level_dpo.pdf" target="_blank">Aligning Compound AI Systems via System-level DPO</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Xiangwen Wang, Yibo Jacky Zhang, Zhoujie Ding, Katherine Tsai, Sanmi Koyejo</p>
     </div>
   </div>
@@ -105,61 +114,61 @@ Following are confirmed invited speakers, ordered by last name:
   <h3 style={{marginBottom: '1.5rem', color: '#2e3440', borderBottom: '2px solid #3b4252', paddingBottom: '0.5rem'}}>Poster Presentations</h3>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem'}}>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>InvAgent: A Large Language Model based Multi-Agent System for Inventory Management in Supply Chains</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2407.11384" target="_blank">InvAgent: A Large Language Model based Multi-Agent System for Inventory Management in Supply Chains</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yinzhu Quan, Zefang Liu</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>"I apologize for my actions": Emergent Properties and Technical Challenges of Generative Agents</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/i_apologize_for_my_actions.pdf" target="_blank">"I apologize for my actions": Emergent Properties and Technical Challenges of Generative Agents</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>N'yoma Diamond, Soumya Banerjee</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Agentic AI Multi-Agent Interoperability Extension for Managing Multiparty Conversations</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2411.05828" target="_blank">Agentic AI Multi-Agent Interoperability Extension for Managing Multiparty Conversations</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Diego Gosmar, Deborah A. Dahl, Emmett Coin, David Attwater</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>MASR: Multi-Agent System with Reflection for the Abstraction and Reasoning Corpus</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/masr_multi_agent_system_with_reflection_for_the_abstraction_and_reasoning_corpus.pdf" target="_blank">MASR: Multi-Agent System with Reflection for the Abstraction and Reasoning Corpus</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Kiril Bikov, Mikel Bober-Irizar, Soumya Banerjee</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>AgentsEval: Enhancing LLM-as-a-Judge via Multi-Agent Collaboration</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/agentseval_enhancing_llm_as_a_judge_via_multi_agent_collaboration.pdf" target="_blank">AgentsEval: Enhancing LLM-as-a-Judge via Multi-Agent Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yiyue Qian, Shinan Zhang, Yun Zhou, Haibo Ding, Diego A. Socolinsky, Yi Zhang</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Exploring and Controlling Diversity in LLM-Agent Conversation</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2412.21102" target="_blank">Exploring and Controlling Diversity in LLM-Agent Conversation</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>KuanChao Chu, Yi-Pei Chen, Hideki Nakayama</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Effect of Adaptive Communication Support on Human-AI Collaboration</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2412.06808" target="_blank">Effect of Adaptive Communication Support on Human-AI Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Shipeng Liu, FNU Shrutika, Boshen Zhang, Zhehui Huang, Feifei Qian</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Don't Just Demo, Teach Me the Principles: A Principle-Based Multi-Agent Prompting Strategy for Text Classification</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/dont_just_demo_teach_me_the_principles.pdf" target="_blank">Don't Just Demo, Teach Me the Principles: A Principle-Based Multi-Agent Prompting Strategy for Text Classification</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Peipei Wei</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Simulating Rumor Spreading in Social Networks using LLM agents</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="http://arxiv.org/pdf/2502.01450" target="_blank">Simulating Rumor Spreading in Social Networks using LLM agents</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Tianrui Hu, Dimitrios Liakopoulos, Xiwen Wei, Radu Marculescu, Neeraja J Yadwadkar</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Demystifying LLM-based Multi-Agent Collaboration</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2501.06322" target="_blank">Demystifying LLM-based Multi-Agent Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Khanh-Tung Tran, Dung Dao, Duong Minh Nguyen, Viet Quoc Pham, Barry O'Sullivan, Hoang D. Nguyen</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://drive.google.com/file/d/1ebpcJaUT3P1Is1AaUSKQOHlM936tSv9N/view?usp=sharing" target="_blank">AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Huizi Yu, Jiayan Zhou, Lingyao Li, Themistocles L. Assimes, Xin Ma, Danielle Bitterman, Lizhou Fan</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>Reliable Decision-Making for Multi-Agent LLM Systems</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/reliable_decision_making_for_multi_agent_llm_systems.pdf" target="_blank">Reliable Decision-Making for Multi-Agent LLM Systems</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Xian Yeow Lee, Shunichi Akatsuka, Aman Kumar, Lasitha Vidyaratne, Ahmed K. Farahat, Chetan Gupta</p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
-      <h4 style={{color: '#2e3440', marginTop: 0}}>A Multi-Agent Approach for Iterative Refinement in Visual Content Generation</h4>
+      <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/a_multi_agent_approach_for_iterative_refinement_in_visual_content_generation.pdf" target="_blank">A Multi-Agent Approach for Iterative Refinement in Visual Content Generation</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Adithya S Kolavi, Achala Nayak, Nigel Teofilo Dias, Srinidhi Somayaji P, Ramamoorthy Srinath</p>
     </div>
   </div>
 </div>
 
-## Workshop Agenda (Work In Progress)
+## Workshop Agenda
 The workshop features invited talks, oral presentations, a lightning talk session, poster session, and panel discussion. More details on invited speakers and workshop agenda can be found on our website.
 
 The table below shows a tentative workshop agenda. Note that the actual agenda will be adjusted according to the conference schedule.
