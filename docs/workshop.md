@@ -234,7 +234,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
   </div>
 
   <div className="organizer-card" style={{textAlign: 'center', padding: '1rem'}}>
-    <img src="/2025_organizers/yi_zhang.jpg" alt="Yi Zhang" style={{width: '180px', height: '180px', objectFit: 'cover', borderRadius: '50%', margin: '0 auto'}}/>
+    <img src="/2025_organizers/yi_zhang.png" alt="Yi Zhang" style={{width: '180px', height: '180px', objectFit: 'cover', borderRadius: '50%', margin: '0 auto'}}/>
     <h4 style={{margin: '1rem 0 0.5rem'}}>Yi Zhang</h4>
     <p style={{fontSize: '0.9rem', color: '#666'}}>Amazon AWS GenAI</p>
   </div>
