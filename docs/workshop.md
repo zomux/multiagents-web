@@ -178,16 +178,16 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 |-------------------|--------------|-----------------------------------------|
 | **9:00 – 9:05**  | 5 mins       | **Opening Remarks**                     |
 | **9:05 – 9:40**  | 35 mins      | **Invited Talk 1 - Yilun Du**<br/>*Reasoning with Language Models through Multiagent Collaboration*                      |
-| **9:40 – 10:15** | 35 mins      | **Invited Talk 2 - Kyunghyun Cho**                      |
-| **10:15 – 10:30**| 15 mins      | **Oral Presentation – Paper 1**         |
+| **9:40 – 10:15** | 35 mins      | **Invited Talk 2 - Kyunghyun Cho**<br/>*A multi-modal, multi-agent system - A minimalistic framework to study multi-agent systems*                      |
+| **10:15 – 10:30**| 15 mins      | **Oral Presentation – Paper 1**<br/>*Talking Vehicles: Cooperative Driving via Natural Language*         |
 | **10:30 – 11:00**| 30 mins      | **Break** (Light refreshments)          |
-| **11:00 – 11:15**| 15 mins      | **Oral Presentation – Paper 2**         |
+| **11:00 – 11:15**| 15 mins      | **Oral Presentation – Paper 2**<br/>*Aligning Compound AI Systems via System-level DPO*         |
 | **11:15 – 11:35**| 20 mins      | **Lightning Talk Session**              |
 | **11:35 – 12:30**| 55 mins      | **Poster Session**                      |
 | **12:30 – 14:00**| 90 mins      | **Lunch**                               |
-| **14:00 – 14:35**| 35 mins      | **Invited Talk 3 - Vivian Chen**                      |
+| **14:00 – 14:35**| 35 mins      | **Invited Talk 3 - Vivian Chen**<br/>*Optimizing Interaction and Intelligence --- Multi-Agent Simulation and Collaboration for Personalized Marketing and Advanced Reasoning*                      |
 | **14:35 – 15:10**| 35 mins      | **Invited Talk 4 - Katia Sycara**<br/>*LLM based Teamwork: Promises and Challenges*                      |
-| **15:10 – 15:25**| 15 mins      | **Oral Presentation – Paper 3**         |
+| **15:10 – 15:25**| 15 mins      | **Oral Presentation – Paper 3**<br/>*Improving Multi-Agent Debate with Sparse Communication Topology*         |
 | **15:25 – 15:30**| 5 mins       | **Buffer Time**                         |
 | **15:30 – 16:00**| 30 mins      | **Break** (Light refreshments)          |
 | **16:00 – 16:45**| 45 mins      | **Panel Discussion**                    |
