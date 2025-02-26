@@ -82,7 +82,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
-        title: 'AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration',
+        title: 'WMAC 2025 - AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration',
         // logo: {
         //   alt: 'WMAC logo',
         //   src: 'img/logo_small.png',
