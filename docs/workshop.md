@@ -98,14 +98,18 @@ Following are confirmed invited speakers, ordered by last name:
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2406.11776" target="_blank">Improving Multi-Agent Debate with Sparse Communication Topology</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yunxuan Li, Yibing Du, Jiageng Zhang, Le Hou, Peter Grabowski, Yeqing Li, Eugene Ie</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_talks/talk_improving_multi_agent_debate_with_sparse_communication_topology.pdf" target="_blank">📄 Talk</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/talking_vehicles_cooperative_driving_via_natural_language.pdf" target="_blank">Talking Vehicles: Cooperative Driving via Natural Language</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G Allievi, Hang Qiu, Peter Stone</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_talks/talk_talking_vehicles_cooperative_driving_via_natural_language.pdf" target="_blank">📄 Talk</a> &nbsp;
+      <a href="/2025_posters/poster_talking_vehicles_cooperative_driving_via_natural_language.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/aligning_compound_ai_systems_via_system_level_dpo.pdf" target="_blank">Aligning Compound AI Systems via System-level DPO</a></h4>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Xiangwen Wang, Yibo Jacky Zhang, Zhoujie Ding, Katherine Tsai, Sanmi Koyejo</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Xiangwen Wang, Yibo Jacky Zhang, Zhoujie Ding, Katherine Tsai, Sanmi Koyejo</p> &nbsp;
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_talks/talk_aligning_compound_ai_systems_via_system_level_dpo.pdf" target="_blank">📄 Talk</a><a href="/2025_posters/poster_aligning_compound_ai_systems_via_system_level_dpo.pdf" target="_blank">📄 Poster</a></p>
     </div>
   </div>
 </div>
@@ -116,54 +120,67 @@ Following are confirmed invited speakers, ordered by last name:
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2407.11384" target="_blank">InvAgent: A Large Language Model based Multi-Agent System for Inventory Management in Supply Chains</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yinzhu Quan, Zefang Liu</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_invagent_a_large_language_model_based_multi_agent_system_for_inventory_management_in_supply_chains.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/i_apologize_for_my_actions.pdf" target="_blank">"I apologize for my actions": Emergent Properties and Technical Challenges of Generative Agents</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>N'yoma Diamond, Soumya Banerjee</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_i_apologize_for_my_actions.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2411.05828" target="_blank">Agentic AI Multi-Agent Interoperability Extension for Managing Multiparty Conversations</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Diego Gosmar, Deborah A. Dahl, Emmett Coin, David Attwater</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_agentic_ai_multi_agent_interoperability_extension_for_managing_multiparty_conversations.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/masr_multi_agent_system_with_reflection_for_the_abstraction_and_reasoning_corpus.pdf" target="_blank">MASR: Multi-Agent System with Reflection for the Abstraction and Reasoning Corpus</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Kiril Bikov, Mikel Bober-Irizar, Soumya Banerjee</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_masr_multi_agent_system_with_reflection_for_the_abstraction_and_reasoning_corpus.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/agentseval_enhancing_llm_as_a_judge_via_multi_agent_collaboration.pdf" target="_blank">AgentsEval: Enhancing LLM-as-a-Judge via Multi-Agent Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yiyue Qian, Shinan Zhang, Yun Zhou, Haibo Ding, Diego A. Socolinsky, Yi Zhang</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="#" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2412.21102" target="_blank">Exploring and Controlling Diversity in LLM-Agent Conversation</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>KuanChao Chu, Yi-Pei Chen, Hideki Nakayama</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_exploring_and_controlling_diversity_in_llm_agent_conversation.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2412.06808" target="_blank">Effect of Adaptive Communication Support on Human-AI Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Shipeng Liu, FNU Shrutika, Boshen Zhang, Zhehui Huang, Feifei Qian</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_effect_of_adaptive_communication_support_on_human_ai_collaboration.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/dont_just_demo_teach_me_the_principles.pdf" target="_blank">Don't Just Demo, Teach Me the Principles: A Principle-Based Multi-Agent Prompting Strategy for Text Classification</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Peipei Wei</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_dont_just_demo_teach_me_the_principles.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="http://arxiv.org/pdf/2502.01450" target="_blank">Simulating Rumor Spreading in Social Networks using LLM agents</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Tianrui Hu, Dimitrios Liakopoulos, Xiwen Wei, Radu Marculescu, Neeraja J Yadwadkar</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_simulating_rumor_spreading_in_social_networks_using_llm_agents.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2501.06322" target="_blank">Demystifying LLM-based Multi-Agent Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Khanh-Tung Tran, Dung Dao, Duong Minh Nguyen, Viet Quoc Pham, Barry O'Sullivan, Hoang D. Nguyen</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_demystifying_llm_based_multi_agent_collaboration.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://drive.google.com/file/d/1ebpcJaUT3P1Is1AaUSKQOHlM936tSv9N/view?usp=sharing" target="_blank">AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Huizi Yu, Jiayan Zhou, Lingyao Li, Themistocles L. Assimes, Xin Ma, Danielle Bitterman, Lizhou Fan</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_aipatient_simulating_patients_with_ehrs_and_llm_powered_agentic_workflow.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/reliable_decision_making_for_multi_agent_llm_systems.pdf" target="_blank">Reliable Decision-Making for Multi-Agent LLM Systems</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Xian Yeow Lee, Shunichi Akatsuka, Aman Kumar, Lasitha Vidyaratne, Ahmed K. Farahat, Chetan Gupta</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_reliable_decision_making_for_multi_agent_llm_systems.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/a_multi_agent_approach_for_iterative_refinement_in_visual_content_generation.pdf" target="_blank">A Multi-Agent Approach for Iterative Refinement in Visual Content Generation</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Adithya S Kolavi, Achala Nayak, Nigel Teofilo Dias, Srinidhi Somayaji P, Ramamoorthy Srinath</p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_a_multi_agent_approach_for_iterative_refinement_in_visual_content_generation.pdf" target="_blank">📄 Poster</a></p>
     </div>
   </div>
 </div>
@@ -177,7 +194,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 | **Time**         | **Duration** | **Session**                             |
 |-------------------|--------------|-----------------------------------------|
 | **9:00 – 9:05**  | 5 mins       | **Opening Remarks**                     |
-| **9:05 – 9:40**  | 35 mins      | **Invited Talk 1 - Yilun Du**<br/>*Reasoning with Language Models through Multiagent Collaboration*                      |
+| **9:05 – 9:40**  | 35 mins      | **Invited Talk 1 - Katia Sycara**<br/>*LLM based Teamwork: Promises and Challenges*                      |
 | **9:40 – 10:15** | 35 mins      | **Invited Talk 2 - Kyunghyun Cho**<br/>*A multi-modal, multi-agent system - A minimalistic framework to study multi-agent systems*                      |
 | **10:15 – 10:30**| 15 mins      | **Oral Presentation – Paper 1**<br/>*Talking Vehicles: Cooperative Driving via Natural Language*         |
 | **10:30 – 11:00**| 30 mins      | **Break** (Light refreshments)          |
@@ -186,7 +203,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 | **11:35 – 12:30**| 55 mins      | **Poster Session**                      |
 | **12:30 – 14:00**| 90 mins      | **Lunch**                               |
 | **14:00 – 14:35**| 35 mins      | **Invited Talk 3 - Vivian Chen**<br/>*Optimizing Interaction and Intelligence --- Multi-Agent Simulation and Collaboration for Personalized Marketing and Advanced Reasoning*                      |
-| **14:35 – 15:10**| 35 mins      | **Invited Talk 4 - Katia Sycara**<br/>*LLM based Teamwork: Promises and Challenges*                      |
+| **14:35 – 15:10**| 35 mins      | **Invited Talk 4 - Yilun Du**<br/>*Reasoning with Language Models through Multiagent Collaboration*                      |
 | **15:10 – 15:25**| 15 mins      | **Oral Presentation – Paper 3**<br/>*Improving Multi-Agent Debate with Sparse Communication Topology*         |
 | **15:25 – 15:30**| 5 mins       | **Buffer Time**                         |
 | **15:30 – 16:00**| 30 mins      | **Break** (Light refreshments)          |
