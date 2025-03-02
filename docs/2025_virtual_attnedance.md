@@ -21,4 +21,4 @@ This page provides essential information for all virtual participants at WMAC 20
 
 ## Virtual Poster Presentations
 
-Please check the [workshop page](/workshop) for accessing PDF files for all posters. Some authors have provided videos for their posters. 
+Please check the [workshop page](/workshop) for accessing PDF files for all posters. Some authors have provided videos for their posters.

@@ -140,7 +140,7 @@ Following are confirmed invited speakers, ordered by last name:
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/agentseval_enhancing_llm_as_a_judge_via_multi_agent_collaboration.pdf" target="_blank">AgentsEval: Enhancing LLM-as-a-Judge via Multi-Agent Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yiyue Qian, Shinan Zhang, Yun Zhou, Haibo Ding, Diego A. Socolinsky, Yi Zhang</p>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="#" target="_blank">📄 Poster</a></p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_agentseval_enhancing_llm_as_a_judge_via_multi_agent_collaboration.pdf" target="_blank">📄 Poster</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2412.21102" target="_blank">Exploring and Controlling Diversity in LLM-Agent Conversation</a></h4>
