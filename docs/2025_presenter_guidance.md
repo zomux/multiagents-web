@@ -2,6 +2,7 @@
 sidebar_position: 2
 hide_table_of_contents: true
 title: 2025 - Presenter Guidance
+slug: /2025-presenter-guidance
 ---
 
 # Presenter Guidelines
