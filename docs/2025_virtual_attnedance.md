@@ -11,7 +11,6 @@ This page provides essential information for all virtual participants at WMAC 20
 
 ## Joining Virtual Sessions
 
-### Access Information
 - The zoom link to the live sessions can be found in the Underline: https://underline.io/events/486/sessions?eventSessionId=19383&searchGroup=lecture
 - For Q&A, due to the tight schedule, the session chairs are likely to prioritize very few questions for offline participants. Feel free to ask questions by posting them on the online discussion group, we will collect these questions and follow up with corresponding speakers offline.
 
