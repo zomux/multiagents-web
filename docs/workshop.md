@@ -75,10 +75,10 @@ Following are confirmed invited speakers, ordered by last name:
   </div>
 
   <div className="speaker-card" style={{border: '1px solid #eee', borderRadius: '8px', padding: '1rem', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}}>
-    <img src="/2025_speakers/yilun_du.png" alt="Yilun Du" style={{width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px'}}/>
-    <h3>Yilun Du</h3>
-    <p style={{fontSize: '0.9rem'}}><em>Google DeepMind</em></p>
-    <p style={{fontSize: '0.9rem'}}>Yilun Du is currently a senior research scientist at Google Deepmind and an incoming assistant professor at Harvard University. He received his PhD at MIT and received a NSF graduate fellowship. His work has received an outstanding paper award at ICLR.</p>
+    <img src="/2025_speakers/zora_wang.jpg" alt="Zora Wang" style={{width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px'}}/>
+    <h3>Zora Wang</h3>
+    <p style={{fontSize: '0.9rem'}}><em>PhD Candidate, Carnegie Mellon University</em></p>
+    <p style={{fontSize: '0.9rem'}}>Zora Zhiruo Wang is a PhD candidate at Carnegie Mellon University, Language Technologies Institute, advised by Professors Graham Neubig and Daniel Fried. Her research interest is using programmatic approaches to solve real-world digital problems such as building intelligent agents. Her recent work focuses on building adaptive agents that learn and apply increasingly complex knowledge and skills. Prior to CMU, she has worked on knowledge intelligence at Microsoft Research, Asia. She has presented her work at and served as reviewers for top-tier NLP/ML conferences including NeurIPS, ICLR, ACL, EMNLP, and KDD. She has co-organized the Deep Learning for Code (DL4C) at ICLR and the first Agent Workshop at CMU; and has given tutorials about "Language Models for Tabular Data" at SIGIR.</p>
   </div>
 
   <div className="speaker-card" style={{border: '1px solid #eee', borderRadius: '8px', padding: '1rem', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}}>
@@ -203,7 +203,7 @@ The table below shows a tentative workshop agenda. Note that the actual agenda w
 | **11:35 – 12:30**| 55 mins      | **Poster Session**                      |
 | **12:30 – 14:00**| 90 mins      | **Lunch**                               |
 | **14:00 – 14:35**| 35 mins      | **Invited Talk 3 - Vivian Chen**<br/>*Optimizing Interaction and Intelligence --- Multi-Agent Simulation and Collaboration for Personalized Marketing and Advanced Reasoning*                      |
-| **14:35 – 15:10**| 35 mins      | **Invited Talk 4 - Yilun Du**<br/>*Reasoning with Language Models through Multiagent Collaboration*                      |
+| **14:35 – 15:10**| 35 mins      | **Invited Talk 4 - Zora Wang**<br/>*Building TheAgentCompany: Benchmarking Consequential Real-World Tasks and Adaptive Knowledge Learning*                      |
 | **15:10 – 15:25**| 15 mins      | **Oral Presentation – Paper 3**<br/>*Improving Multi-Agent Debate with Sparse Communication Topology*         |
 | **15:25 – 15:30**| 5 mins       | **Buffer Time**                         |
 | **15:30 – 16:00**| 30 mins      | **Break** (Light refreshments)          |

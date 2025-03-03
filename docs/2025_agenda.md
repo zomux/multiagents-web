@@ -36,7 +36,7 @@ The AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration (WMAC 20
 | 12:30 - 14:00 | Lunch Break |  |
 | **Afternoon Sessions** |||
 | 14:00 - 14:35 | Invited Talk 3 | • **Speaker:** Vivian Chen (National Taiwan University)<br/>• **Title:** Optimizing Interaction and Intelligence --- Multi-Agent Simulation and Collaboration for Personalized Marketing and Advanced Reasoning |
-| 14:35 - 15:10 | Invited Talk 4 | • **Speaker:** Yilun Du (Google DeepMind)<br/>• **Title:** Reasoning with Language Models through Multiagent Collaboration |
+| 14:35 - 15:10 | Invited Talk 4 | • **Speaker:** Zora Wang (Carnegie Mellon University)<br/>• **Title:** Building TheAgentCompany: Benchmarking Consequential Real-World Tasks and Adaptive Knowledge Learning |
 | 15:10 - 15:25 | Oral Presentation 3 | • **Paper:** Improving Multi-Agent Debate with Sparse Communication Topology<br/>• **Authors:** Yunxuan Li, Yibing Du, Jiageng Zhang, Le Hou, Peter Grabowski, Yeqing Li, Eugene Ie<br/>• [View Talk](/2025_talks/talk_improving_multi_agent_debate_with_sparse_communication_topology.pdf) |
 | 15:30 - 16:00 | Afternoon Break | |
 | 16:00 - 16:45 | Panel Discussion | • **Topic:** Future Directions in LLM-Based Multi-Agent Collaboration |
