@@ -120,7 +120,8 @@ Following are confirmed invited speakers, ordered by last name:
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2407.11384" target="_blank">InvAgent: A Large Language Model based Multi-Agent System for Inventory Management in Supply Chains</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Yinzhu Quan, Zefang Liu</p>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_invagent_a_large_language_model_based_multi_agent_system_for_inventory_management_in_supply_chains.pdf" target="_blank">📄 Poster</a></p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_invagent_a_large_language_model_based_multi_agent_system_for_inventory_management_in_supply_chains.pdf" target="_blank">📄 Poster</a> &nbsp;
+      <a href="https://youtube.com/shorts/ydVmAMSkYc4" target="_blank">📺 Video</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/i_apologize_for_my_actions.pdf" target="_blank">"I apologize for my actions": Emergent Properties and Technical Challenges of Generative Agents</a></h4>
@@ -130,12 +131,14 @@ Following are confirmed invited speakers, ordered by last name:
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2411.05828" target="_blank">Agentic AI Multi-Agent Interoperability Extension for Managing Multiparty Conversations</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Diego Gosmar, Deborah A. Dahl, Emmett Coin, David Attwater</p>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_agentic_ai_multi_agent_interoperability_extension_for_managing_multiparty_conversations.pdf" target="_blank">📄 Poster</a></p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_agentic_ai_multi_agent_interoperability_extension_for_managing_multiparty_conversations.pdf" target="_blank">📄 Poster</a> &nbsp;
+      <a href="https://youtu.be/o9H4_zzrl3M" target="_blank">📺 Video</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/masr_multi_agent_system_with_reflection_for_the_abstraction_and_reasoning_corpus.pdf" target="_blank">MASR: Multi-Agent System with Reflection for the Abstraction and Reasoning Corpus</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Kiril Bikov, Mikel Bober-Irizar, Soumya Banerjee</p>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_masr_multi_agent_system_with_reflection_for_the_abstraction_and_reasoning_corpus.pdf" target="_blank">📄 Poster</a></p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_masr_multi_agent_system_with_reflection_for_the_abstraction_and_reasoning_corpus.pdf" target="_blank">📄 Poster</a> &nbsp;
+      <a href="https://youtu.be/Dn5LEXDTroE" target="_blank">📺 Video</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/agentseval_enhancing_llm_as_a_judge_via_multi_agent_collaboration.pdf" target="_blank">AgentsEval: Enhancing LLM-as-a-Judge via Multi-Agent Collaboration</a></h4>
@@ -150,17 +153,20 @@ Following are confirmed invited speakers, ordered by last name:
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2412.06808" target="_blank">Effect of Adaptive Communication Support on Human-AI Collaboration</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Shipeng Liu, FNU Shrutika, Boshen Zhang, Zhehui Huang, Feifei Qian</p>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_effect_of_adaptive_communication_support_on_human_ai_collaboration.pdf" target="_blank">📄 Poster</a></p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_effect_of_adaptive_communication_support_on_human_ai_collaboration.pdf" target="_blank">📄 Poster</a> &nbsp;
+      <a href="https://youtu.be/f1KVomchPEk" target="_blank">📺 Video</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="/2025_artifacts/dont_just_demo_teach_me_the_principles.pdf" target="_blank">Don't Just Demo, Teach Me the Principles: A Principle-Based Multi-Agent Prompting Strategy for Text Classification</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Peipei Wei</p>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_dont_just_demo_teach_me_the_principles.pdf" target="_blank">📄 Poster</a></p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_dont_just_demo_teach_me_the_principles.pdf" target="_blank">📄 Poster</a> &nbsp;
+      <a href="https://youtu.be/ouzW0wN4Hyk" target="_blank">📺 Video</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="http://arxiv.org/pdf/2502.01450" target="_blank">Simulating Rumor Spreading in Social Networks using LLM agents</a></h4>
       <p style={{color: '#4c566a', fontSize: '0.9rem', marginBottom: 0}}>Tianrui Hu, Dimitrios Liakopoulos, Xiwen Wei, Radu Marculescu, Neeraja J Yadwadkar</p>
-      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_simulating_rumor_spreading_in_social_networks_using_llm_agents.pdf" target="_blank">📄 Poster</a></p>
+      <p style={{color: '#4c566a', fontSize: '0.9rem', marginTop: '0.5rem'}}><a href="/2025_posters/poster_simulating_rumor_spreading_in_social_networks_using_llm_agents.pdf" target="_blank">📄 Poster</a> &nbsp;
+      <a href="https://youtu.be/VYl_3KlJ7SA" target="_blank">📺 Video</a></p>
     </div>
     <div style={{backgroundColor: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e9f0'}}>
       <h4 style={{color: '#2e3440', marginTop: 0}}><a href="https://arxiv.org/pdf/2501.06322" target="_blank">Demystifying LLM-based Multi-Agent Collaboration</a></h4>
