@@ -10,6 +10,8 @@ title: Overview
     **On-site workshop attendance instructions:**
 
     WMAC 2025 will be held on March 4, 2025. Workshop room is **Room 123** (Pennsylvania Convention Center).
+
+    The zoom link to the live sessions can be found in the Underline: https://underline.io/events/486/sessions?eventSessionId=19383&searchGroup=lecture
   </div>
   <div style={{flexShrink: '0'}}>
     <img src="/2025_artifacts/direction.png" alt="Direction to Room 123" style={{width: '500px', maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}}/>
