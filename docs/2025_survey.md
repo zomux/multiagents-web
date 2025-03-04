@@ -7,7 +7,7 @@ slug: /2025-survey
 
 # Workshop Survey
 
-ThThanks for participating in WMAC 2025 (AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration). Your feedback is valuable to help us improve future workshops. 
+Thanks for participating in WMAC 2025 (AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration). Your feedback is valuable to help us improve future workshops. 
 
 Please provide comments on different aspects of the workshop, including:
 
