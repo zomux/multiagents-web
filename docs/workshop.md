@@ -5,18 +5,7 @@ title: Overview
 ---
 
 :::info
-<div style={{display: 'flex', alignItems: 'center', gap: '2rem'}}>
-  <div style={{flex: '1', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start'}}>
-    **On-site workshop attendance instructions:**
-
-    WMAC 2025 will be held on March 4, 2025. Workshop room is **Room 123** (Pennsylvania Convention Center).
-
-    The zoom link to the live sessions can be found in the Underline: https://underline.io/events/486/sessions?eventSessionId=19383&searchGroup=lecture
-  </div>
-  <div style={{flexShrink: '0'}}>
-    <img src="/2025_artifacts/direction.png" alt="Direction to Room 123" style={{width: '500px', maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}}/>
-  </div>
-</div>
+- (3/5) Thank you to all in-person and virtual participants who joined WMAC 2025. We had a great time in Philadelphia with 7 inspiring talks and 14 posters fully leveraging the space, with insightful break-time conversations throughout the workshop room. Special thanks go to the presenters and participants who traveled across the globe to attend this workshop. Please take a moment to help us by filling out a brief survey: [here](/2025-survey).
 :::
 
 

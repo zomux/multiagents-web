@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 hide_table_of_contents: true
-title: WMAC 2025 - Survey
+title: 2025 - Survey
 slug: /2025-survey
 ---
 
