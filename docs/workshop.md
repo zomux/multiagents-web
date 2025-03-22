@@ -4,12 +4,13 @@ hide_table_of_contents: true
 title: Overview
 ---
 
+
 :::info
-- (3/5) Thank you to all in-person and virtual participants who joined WMAC 2025. We had a great time in Philadelphia with 7 inspiring talks and 14 posters fully leveraging the space, with insightful break-time conversations throughout the workshop room. Special thanks go to the presenters and participants who traveled across the globe to attend this workshop. Please take a moment to help us by filling out a brief survey: [here](/2025-survey).
+- (3/21) Check out the [takeaways](/posts/2025_takeaway) from WMAC 2025.
 :::
 
-
 :::info
+- (3/5) Thank you to all in-person and virtual participants who joined WMAC 2025. We had a great time in Philadelphia with 7 inspiring talks and 14 posters fully leveraging the space, with insightful break-time conversations throughout the workshop room. Special thanks go to the presenters and participants who traveled across the globe to attend this workshop. Please take a moment to help us by filling out a brief survey: [here](/2025-survey).
 - (2/8) Updated accepted papers for WMAC 2025.
 - (1/6) Updated with full information of accepted papers and invited speakers. We will update the workshopagenda soon.
 - (12/17) All paper decisions and reviews have been released. For accepted papers, we will send out another email notifying the presentation format and camera-ready deadline. Please note that early registration of AAAI 2025 is now open until 12/19 (11:59 PM ET), please take your time to register. Make sure your registration covers the workshop session for WMAC 2025. For students presenting at the workshop, if you require waiver of the workshop registration fee, please contact us.
