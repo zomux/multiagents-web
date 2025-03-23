@@ -108,3 +108,32 @@ We featured 14 diverse posters covering various aspects of LLM-based multi-agent
 - Join our community mailing list for updates on future workshops
 - Consider submitting to our next workshop, special issues and other events
 - Explore collaboration opportunities with fellow participants
+
+## Photo Gallery
+
+Here are some highlights from WMAC 2025:
+
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', margin: '2rem 0'}}>
+  <div style={{maxWidth: '45%', textAlign: 'center'}}>
+    <img src="/2025_photos/IMG_8676.jpg" alt="Morning in Philadelphia" style={{width: '100%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.15)'}} />
+  </div>
+  
+  <div style={{maxWidth: '45%', textAlign: 'center'}}>
+    <img src="/2025_photos/IMG_8682.jpg" alt="Screen" style={{width: '100%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.15)'}} />
+  </div>
+  
+  <div style={{maxWidth: '45%', textAlign: 'center'}}>
+    <img src="/2025_photos/IMG_8692.jpg" alt="Poster presentation 1" style={{width: '100%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.15)'}} />
+  </div>
+  
+  <div style={{maxWidth: '45%', textAlign: 'center'}}>
+    <img src="/2025_photos/IMG_8693.jpg" alt="Poster presentation 2" style={{width: '100%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.15)'}} />
+  </div>
+  
+  <div style={{maxWidth: '45%', textAlign: 'center'}}>
+    <img src="/2025_photos/IMG_8708.jpg" alt="Panel discussion" style={{width: '100%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.15)'}} />
+  </div>
+  <div style={{maxWidth: '45%', textAlign: 'center'}}>
+    <img src="/2025_photos/IMG_8706.jpg" alt="Break time" style={{width: '100%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.15)'}} />
+  </div>
+</div>
