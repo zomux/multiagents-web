@@ -28,6 +28,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: true,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -49,6 +50,10 @@ const config = {
           // editUrl:
             // `https://github.com/${organizationName}/${projectName}/tree/main/`,
           routeBasePath: '/'
+        },
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
