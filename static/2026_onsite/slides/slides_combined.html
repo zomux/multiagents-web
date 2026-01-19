@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WMAC 2026 Slides</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    /* Slide container */
+    .slide-wrapper {
+      position: relative;
+      width: 960px;
+      height: 540px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .slide {
+      display: none !important;
+      width: 960px;
+      height: 540px;
+    }
+
+    .slide.active {
+      display: flex !important;
+    }
+
+    /* Utility classes from individual slides */
+    .col { display: flex; flex-direction: column; }
+    .row { display: flex; flex-direction: row; }
+    .center { justify-content: center; align-items: center; }
+    .items-center { align-items: center; }
+    .bg-surface { background: #f7fafc; }
+    .fill-height { flex: 1; }
+
+    /* Navigation */
+    .nav-info {
+      color: #718096;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .nav-hint {
+      color: #4a5568;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+    .slide-counter {
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    /* Fullscreen mode */
+    .fullscreen-mode {
+      padding: 0 !important;
+      background: #000 !important;
+    }
+    .fullscreen-mode .slide-wrapper {
+      width: 100vw;
+      height: 100vh;
+      border-radius: 0;
+      box-shadow: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000;
+    }
+    .fullscreen-mode .slide {
+      width: 960px;
+      height: 540px;
+      transform-origin: center center;
+    }
+    .fullscreen-mode .nav-info,
+    .fullscreen-mode .nav-hint {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-wrapper">
+    <!-- Slide 1: Title -->
+    <div class="slide col center bg-surface" data-name="Title">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 14px; color: #319795; margin: 40px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 2: Overview & Organizers -->
+    <div class="slide col bg-surface" data-name="Overview & Organizers" style="padding: 40px 50px;">
+      <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0 0 8px 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+      <ul style="font-size: 12px; color: #1a365d; margin: 0 0 12px 0; padding-left: 20px;">
+        <li>AI Agents driven by LLMs are becoming capable of complex task solving</li>
+        <li>Rise of Multi-Agent Collaboration</li>
+        <li>Open challenges remain</li>
+      </ul>
+      <p style="font-size: 14px; font-weight: 700; color: #1a365d; margin: 8px 0 12px 0;">Program Organizers</p>
+      <div class="col" style="gap: 20px;">
+        <!-- Row 1: First 4 organizers -->
+        <div class="row" style="gap: 40px; justify-content: center;">
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_raphael_shu.jpeg" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Raphael Shu</p>
+            <p style="font-size: 8px; color: #319795; margin: 2px 0 0 0;">Chair</p>
+          </div>
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_yusen_zhang.png" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Yusen Zhang</p>
+            <p style="font-size: 8px; color: #319795; margin: 2px 0 0 0;">Co-Chair</p>
+          </div>
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_alborz_geramifard.jpg" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Alborz Geramifard</p>
+            <p style="font-size: 8px; color: #718096; margin: 2px 0 0 0;">LinkedIn</p>
+          </div>
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_alex_marin.png" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Alex Marin</p>
+            <p style="font-size: 8px; color: #718096; margin: 2px 0 0 0;">Thomson Reuters</p>
+          </div>
+        </div>
+        <!-- Row 2: Last 4 organizers -->
+        <div class="row" style="gap: 40px; justify-content: center;">
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_weiyan_shi.jpg" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Weiyan Shi</p>
+            <p style="font-size: 8px; color: #718096; margin: 2px 0 0 0;">Northeastern</p>
+          </div>
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_tao_yu.jpeg" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Tao Yu</p>
+            <p style="font-size: 8px; color: #718096; margin: 2px 0 0 0;">HKU</p>
+          </div>
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_yi_zhang.png" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Yi Zhang</p>
+            <p style="font-size: 8px; color: #718096; margin: 2px 0 0 0;">AWS</p>
+          </div>
+          <div class="col items-center" style="width: 120px;">
+            <img src="photos/circle_jeffrey_cho.jpg" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" />
+            <p style="font-size: 10px; font-weight: 600; color: #1a365d; margin: 6px 0 0 0; text-align: center;">Jeffrey Cho</p>
+            <p style="font-size: 8px; color: #718096; margin: 2px 0 0 0;">UPenn</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Sponsors -->
+    <div class="slide col bg-surface" data-name="Sponsors" style="padding: 40px 50px;">
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 0 0 16px 0;">SPONSORS</p>
+      <p style="font-size: 14px; color: #718096; margin: 0 0 40px 0;">We thank our sponsors for their generous support</p>
+      <div class="row items-center" style="gap: 60px; justify-content: center; flex-wrap: wrap;">
+        <img src="../../2026_sponsors/linkedin_logo.png" style="height: 60px; object-fit: contain;" />
+        <img src="../../2026_sponsors/aws_logo.png" style="height: 60px; object-fit: contain;" />
+        <img src="../../2026_sponsors/youware_logo.png" style="height: 60px; object-fit: contain;" />
+      </div>
+      <p style="font-size: 14px; color: #319795; margin: auto 0 0 0;">multiagents.org/2026</p>
+    </div>
+
+    <!-- Slide 4: Agenda -->
+    <div class="slide col bg-surface" data-name="Agenda" style="padding: 30px 40px;">
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 0 0 24px 0;">WMAC 2026 PROGRAM AGENDA</p>
+      <div class="row" style="gap: 40px;">
+        <div class="col" style="flex: 1;">
+          <p style="font-size: 14px; font-weight: 700; color: #319795; margin: 0 0 12px 0;">MORNING SESSIONS 9:00 ~ 12:30</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Opening</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Invited Talk 1 (Yi R. Fung)</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Oral Presentation 1</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Lightning Talks for Posters</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Coffee Break</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Invited Talk 2 (Sophia Han)</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0;">Poster Session</p>
+        </div>
+        <div class="col" style="flex: 1;">
+          <p style="font-size: 14px; font-weight: 700; color: #319795; margin: 0 0 12px 0;">AFTERNOON SESSIONS 13:50 ~ 18:15</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Invited Talk 3 (Matthew Taylor)</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Specially Invited Oral Talk</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Fireside Chat & Panel</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Oral Presentations 2 & 3</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Industrial Demo Session</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0 0 6px 0;">Oral Presentation 4</p>
+          <p style="font-size: 13px; color: #1a365d; margin: 0;">Award & Closing</p>
+        </div>
+      </div>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org/2026</p>
+    </div>
+
+    <!-- Slide 4: Attendance Resources -->
+    <div class="slide col bg-surface" data-name="Attendance Resources" style="padding: 30px 40px;">
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 0 0 24px 0;">ATTENDANCE RESOURCES</p>
+      <div style="margin-bottom: 20px;">
+        <p style="font-size: 16px; font-weight: 600; color: #1a365d; margin: 0 0 8px 0;">Room: Topaz 220 – 225</p>
+        <p style="font-size: 14px; color: #718096; margin: 0;">See venue map on multiagents.org/2026</p>
+      </div>
+      <div style="margin-bottom: 20px;">
+        <p style="font-size: 16px; font-weight: 600; color: #1a365d; margin: 0 0 8px 0;">Registration</p>
+        <p style="font-size: 14px; color: #718096; margin: 0;">Register with "AAAI Tutorial/Lab/Bridge only" or</p>
+        <p style="font-size: 14px; color: #718096; margin: 0;">"Bridges, Tutorials and Labs Add-on" option</p>
+      </div>
+      <div style="margin-bottom: 20px;">
+        <p style="font-size: 16px; font-weight: 600; color: #1a365d; margin: 0 0 8px 0;">Papers & Posters</p>
+        <p style="font-size: 14px; color: #718096; margin: 0;">Available at multiagents.org/2026</p>
+      </div>
+      <div>
+        <p style="font-size: 16px; font-weight: 600; color: #1a365d; margin: 0 0 8px 0;">Remote Participation</p>
+        <p style="font-size: 14px; color: #718096; margin: 0 0 4px 0;">In-person encouraged, remote supported for talks</p>
+        <p style="font-size: 14px; color: #319795; margin: 0;">multiagents.org/2026_remote</p>
+      </div>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org/2026</p>
+    </div>
+
+    <!-- Slide 5: Questions -->
+    <div class="slide col bg-surface" data-name="Questions" style="padding: 40px 50px;">
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 0 0 24px 0;">HOW TO ASK QUESTIONS</p>
+      <p style="font-size: 14px; color: #718096; margin: 0 0 30px 0;">You can raise questions to speakers or the event organizers through:</p>
+      <div style="margin-bottom: 24px;">
+        <p style="font-size: 18px; font-weight: 600; color: #1a365d; margin: 0 0 8px 0;">Discord</p>
+        <p style="font-size: 14px; color: #718096; margin: 0 0 4px 0;">Join our Discord server for real-time discussion</p>
+        <p style="font-size: 14px; color: #319795; margin: 0;">https://discord.gg/PLACEHOLDER</p>
+      </div>
+      <div style="margin-bottom: 24px;">
+        <p style="font-size: 18px; font-weight: 600; color: #1a365d; margin: 0 0 8px 0;">Underline</p>
+        <p style="font-size: 14px; color: #718096; margin: 0 0 4px 0;">Submit questions through the Underline platform</p>
+        <p style="font-size: 14px; color: #319795; margin: 0;">https://underline.io/PLACEHOLDER</p>
+      </div>
+      <p style="font-size: 14px; color: #319795; margin: auto 0 0 0;">multiagents.org/2026</p>
+    </div>
+
+    <!-- Slide 6: Reminders -->
+    <div class="slide col bg-surface" data-name="Reminders" style="padding: 40px 50px;">
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 0 0 24px 0;">REMINDERS</p>
+      <div style="margin-bottom: 28px;">
+        <p style="font-size: 18px; font-weight: 600; color: #1a365d; margin: 0 0 10px 0;">Goodies</p>
+        <p style="font-size: 14px; color: #718096; margin: 0 0 4px 0;">We have prepared t-shirts and tote bags for attendees.</p>
+        <p style="font-size: 14px; color: #718096; margin: 0;">Please check in with a volunteer to obtain your goodies.</p>
+      </div>
+      <div style="margin-bottom: 24px;">
+        <p style="font-size: 18px; font-weight: 600; color: #1a365d; margin: 0 0 10px 0;">Lunchtime Gathering</p>
+        <p style="font-size: 14px; color: #718096; margin: 0 0 4px 0;">After the poster session, please come back to this room.</p>
+        <p style="font-size: 14px; color: #718096; margin: 0;">We may have lunchbox and drinks available for attendees.</p>
+      </div>
+      <p style="font-size: 14px; color: #319795; margin: auto 0 0 0;">multiagents.org/2026</p>
+    </div>
+
+    <!-- Slide 7: For Presenters -->
+    <div class="slide col bg-surface" data-name="For Presenters" style="padding: 40px 50px;">
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 0 0 24px 0;">FOR PRESENTERS</p>
+      <ul style="font-size: 16px; color: #1a365d; margin: 0; padding-left: 24px; line-height: 2;">
+        <li>Confirm program agenda</li>
+        <li>Check in with moderators 15 mins before presentation</li>
+        <li>All presentations will be in-person</li>
+        <li>Oral presentations: 20 mins each</li>
+      </ul>
+      <p style="font-size: 14px; color: #319795; margin: 40px 0 0 0;">multiagents.org/2026</p>
+    </div>
+
+    <!-- Slide 6: Blank -->
+    <div class="slide col center bg-surface" data-name="Blank">
+    </div>
+
+    <!-- Slide 7: Coffee Break 10:45 -->
+    <div class="slide col center bg-surface" data-name="Coffee Break 10:45">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 30px 0 0 0;">COFFEE BREAK UNTIL 10:45</p>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 8: Poster Session -->
+    <div class="slide col center bg-surface" data-name="Poster Session">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 30px 0 0 0;">POSTER SESSION 11:30 - 12:30</p>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 9: Lunch Break -->
+    <div class="slide col center bg-surface" data-name="Lunch Break">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 30px 0 0 0;">LUNCH BREAK 12:30 - 13:50</p>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 10: Coffee Break 16:05 -->
+    <div class="slide col center bg-surface" data-name="Coffee Break 16:05">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 30px 0 0 0;">COFFEE BREAK UNTIL 16:05</p>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 11: Coffee Break 17:00 -->
+    <div class="slide col center bg-surface" data-name="Coffee Break 17:00">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 30px 0 0 0;">COFFEE BREAK UNTIL 17:00</p>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 12: Fireside Chat & Panel -->
+    <div class="slide col center bg-surface" data-name="Fireside Chat & Panel">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 30px 0 0 0;">FIRESIDE CHAT & PANEL</p>
+      <p style="font-size: 14px; color: #319795; margin: 30px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 13: Industrial Demo Session -->
+    <div class="slide col center bg-surface" data-name="Industrial Demo Session">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 28px; font-weight: 700; color: #1a365d; margin: 30px 0 0 0;">INDUSTRIAL DEMO SESSION</p>
+      <p style="font-size: 16px; color: #718096; margin: 10px 0 0 0;">17:00 - 17:45 (3 demos, 15 mins each)</p>
+      <p style="font-size: 14px; color: #319795; margin: 20px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 14: WMAC Title -->
+    <div class="slide col center bg-surface" data-name="WMAC Title">
+      <div class="row items-center" style="gap: 24px;">
+        <img src="logo_wmac.png" style="width: 140px; height: 140px;" />
+        <div class="col" style="gap: 4px;">
+          <p style="font-size: 64px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 16px; font-weight: 700; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on</p>
+          <p style="font-size: 20px; font-weight: 700; color: #1a365d; margin: 0;">Advancing LLM-Based Multi-Agent Collaboration</p>
+          <p style="font-size: 14px; color: #718096; margin: 8px 0 0 0;">January 20, 2026, Singapore</p>
+        </div>
+      </div>
+      <p style="font-size: 14px; color: #319795; margin: 40px 0 0 0;">multiagents.org</p>
+    </div>
+
+    <!-- Slide 15: Best Paper Award -->
+    <div class="slide col bg-surface" data-name="Best Paper Award">
+      <div class="row items-center" style="gap: 20px; padding: 40px 40px 20px 40px;">
+        <img src="logo_wmac.png" style="width: 100px; height: 100px;" />
+        <div class="col" style="gap: 2px;">
+          <p style="font-size: 48px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 14px; font-weight: 600; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on Advancing LLM-Based Multi-Agent Collaboration</p>
+        </div>
+      </div>
+      <div class="col center fill-height">
+        <p style="font-size: 36px; font-weight: 700; color: #1a365d; margin: 0;">BEST PAPER AWARD</p>
+      </div>
+    </div>
+
+    <!-- Slide 16: Closing Remarks -->
+    <div class="slide col bg-surface" data-name="Closing Remarks">
+      <div class="row items-center" style="gap: 20px; padding: 40px 40px 20px 40px;">
+        <img src="logo_wmac.png" style="width: 100px; height: 100px;" />
+        <div class="col" style="gap: 2px;">
+          <p style="font-size: 48px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 14px; font-weight: 600; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on Advancing LLM-Based Multi-Agent Collaboration</p>
+        </div>
+      </div>
+      <div class="col center fill-height">
+        <p style="font-size: 36px; font-weight: 700; color: #1a365d; margin: 0;">CLOSING REMARKS</p>
+      </div>
+    </div>
+
+    <!-- Slide 17: Thank You -->
+    <div class="slide col bg-surface" data-name="Thank You">
+      <div class="row items-center" style="gap: 20px; padding: 40px 40px 20px 40px;">
+        <img src="logo_wmac.png" style="width: 100px; height: 100px;" />
+        <div class="col" style="gap: 2px;">
+          <p style="font-size: 48px; font-weight: 700; color: #1a365d; margin: 0;">WMAC 2026</p>
+          <p style="font-size: 14px; font-weight: 600; color: #1a365d; margin: 0;">AAAI 2026 Bridge Program on Advancing LLM-Based Multi-Agent Collaboration</p>
+        </div>
+      </div>
+      <div class="col center fill-height">
+        <p style="font-size: 48px; font-weight: 700; color: #1a365d; margin: 0;">THANK YOU</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-info">
+    <span class="slide-counter" id="slideCounter">1 / 18</span>
+    <span style="margin-left: 20px;" id="slideName">Title</span>
+  </div>
+  <div class="nav-hint">Use arrow keys (← →) or spacebar to navigate · Press F for fullscreen</div>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+      // Wrap around
+      if (index < 0) index = totalSlides - 1;
+      if (index >= totalSlides) index = 0;
+
+      // Hide all slides
+      slides.forEach(slide => slide.classList.remove('active'));
+
+      // Show current slide
+      slides[index].classList.add('active');
+      currentSlide = index;
+
+      // Update counter
+      document.getElementById('slideCounter').textContent = `${index + 1} / ${totalSlides}`;
+      document.getElementById('slideName').textContent = slides[index].dataset.name;
+    }
+
+    const wrapper = document.querySelector('.slide-wrapper');
+
+    function updateScale() {
+      if (document.body.classList.contains('fullscreen-mode')) {
+        const scaleX = window.innerWidth / 960;
+        const scaleY = window.innerHeight / 540;
+        const scale = Math.min(scaleX, scaleY);
+        slides.forEach(slide => {
+          slide.style.transform = `scale(${scale})`;
+        });
+      } else {
+        slides.forEach(slide => {
+          slide.style.transform = '';
+        });
+      }
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        if (document.documentElement.requestFullscreen) {
+          document.documentElement.requestFullscreen();
+        } else if (document.documentElement.webkitRequestFullscreen) {
+          document.documentElement.webkitRequestFullscreen();
+        }
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        }
+      }
+    }
+
+    document.addEventListener('fullscreenchange', () => {
+      if (document.fullscreenElement) {
+        document.body.classList.add('fullscreen-mode');
+      } else {
+        document.body.classList.remove('fullscreen-mode');
+      }
+      updateScale();
+    });
+
+    document.addEventListener('webkitfullscreenchange', () => {
+      if (document.webkitFullscreenElement) {
+        document.body.classList.add('fullscreen-mode');
+      } else {
+        document.body.classList.remove('fullscreen-mode');
+      }
+      updateScale();
+    });
+
+    window.addEventListener('resize', updateScale);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+        e.preventDefault();
+        showSlide(currentSlide + 1);
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        e.preventDefault();
+        showSlide(currentSlide - 1);
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        showSlide(0);
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        showSlide(totalSlides - 1);
+      } else if (e.key === 'f' || e.key === 'F') {
+        e.preventDefault();
+        toggleFullscreen();
+      } else if (e.key === 'Escape') {
+        // Escape is handled by browser for exiting fullscreen
+      }
+    });
+
+    // Initialize first slide
+    showSlide(0);
+  </script>
+</body>
+</html>
