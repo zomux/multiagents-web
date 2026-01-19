@@ -193,8 +193,8 @@ def create_agenda_slide(prs, slide_layout):
     morning_items = [
         "Opening",
         "Invited Talk 1 (Yi R. Fung)",
-        "Oral Presentation 1",
-        "Lightning Talks for Posters",
+        "WMAC History and Vision",
+        "Lightning Talks for Posters (30 mins)",
         "Coffee Break",
         "Invited Talk 2 (Sophia Han)",
         "Poster Session"
