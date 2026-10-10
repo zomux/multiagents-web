@@ -11,7 +11,7 @@ const projectName = "multiagents-web";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WMAC 2026: AAAI 2026 Bridge Program on Advancing LLM-Based Multi-Agent Collaboration',
+  title: 'WMAC: Workshop on Multi-Agent Collaboration',
   tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -73,12 +73,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
-        title: 'WMAC 2026 - AAAI 2026 Bridge Program on Advancing LLM-Based Multi-Agent Collaboration',
+        title: 'WMAC — Workshop on Multi-Agent Collaboration',
         // logo: {
         //   alt: 'WMAC logo',
         //   src: 'img/logo_small.png',
         // },
         items: [
+          {
+            to: '/2027/',
+            label: '2027 Call for Papers',
+            position: 'right',
+          },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'tutorialSidebar',
@@ -91,8 +96,8 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: 'https://aaai.org/conference/aaai/aaai-26/',
-            label: 'AAAI 2026',
+            href: 'https://aaai.org/conference/aaai/',
+            label: 'AAAI',
             position: 'right',
           },
         ],
