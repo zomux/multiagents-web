@@ -19,7 +19,7 @@ export function Hero() {
         <p className={styles.lede}>Does a team of agents actually beat its best member, or does it just add cost?</p>
         <p className={styles.eventDate}>February 22–23, 2027 <span>One-day workshop · exact day TBD</span></p>
         <div className={styles.actions}>
-          <Link className={styles.primaryButton} to="#submission-guidelines">Call for papers <span aria-hidden="true">↗</span></Link>
+          <Link className={styles.primaryButton} href="https://openreview.net/group?id=AAAI.org/2027/Workshop/WMAC">Submit a paper <span aria-hidden="true">↗</span></Link>
           <Link className={styles.secondaryButton} to="#important-dates">Important dates <span aria-hidden="true">↓</span></Link>
         </div>
       </div>
