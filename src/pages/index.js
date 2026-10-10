@@ -30,7 +30,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  return <Redirect to='/workshop' />;
+  return <Redirect to='/2027/' />;
   // const {siteConfig} = useDocusaurusContext();
   // return (
   //   <Layout
