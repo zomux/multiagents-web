@@ -340,7 +340,7 @@ export default function CFP2027() {
           <img src="/2027/wmac-logo.png" alt="" width="72" height="72" />
           <div>
             <h2 className={styles.h2}>Questions?</h2>
-            <p>Contact the workshop chair Raphael Shu or Alborz Geramifard.</p>
+            <p>Contact the workshop chair Raphael Shu.</p>
           </div>
         </div>
       </section>
