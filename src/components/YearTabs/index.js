@@ -34,7 +34,6 @@ export default function YearTabs({year}) {
   const tabs = TABS[year] || [];
   return (
     <nav className={styles.tabs} aria-label={`WMAC ${year} pages`}>
-      <span className={styles.label}>WMAC {year}</span>
       <div className={styles.list}>
         {tabs.map(([to, label]) => {
           const active = normalize(pathname) === routeOf(to);

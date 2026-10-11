@@ -10,7 +10,7 @@
   gap: 0.25rem 1rem;
   flex-wrap: wrap;
   margin: 0 0 1.75rem;
-  padding: 0.5rem 0.6rem 0.5rem 1rem;
+  padding: 0.5rem 0.6rem;
   border: 1px solid var(--yt-line);
   border-radius: 14px;
   background: var(--yt-bg);
@@ -22,15 +22,6 @@
   --yt-muted: #9bb2c1;
   --yt-accent: #3cc0d6;
   --yt-active-bg: #10283a;
-}
-
-.label {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--yt-accent);
-  white-space: nowrap;
 }
 
 .list {

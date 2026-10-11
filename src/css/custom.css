@@ -35,7 +35,7 @@
   display: none !important;
 }
 /* ---------- top bar: network-wave artwork + WMAC wordmark ---------- */
-:root { --ifm-navbar-height: 5.25rem; } /* taller bar; keeps the sidebar offset in sync */
+:root { --ifm-navbar-height: 6.5rem; } /* taller bar; keeps the sidebar offset in sync */
 .navbar {
   position: sticky;
   top: 0;
@@ -64,7 +64,10 @@
   background: linear-gradient(to right, #0e8ea6, #2fa37a 35%, rgba(47,163,122,0) 85%);
   opacity: 0.55;
 }
-.navbar__inner { position: relative; z-index: 1; align-items: center; }
+.navbar { display: flex; align-items: center; padding-top: 0; padding-bottom: 0; }
+.navbar__inner { position: relative; z-index: 1; height: 100%; align-items: center; }
+.navbar__items { height: 100%; align-items: center; }
+.navbar__items > div { display: flex; align-items: center; }
 .navbar__title {
   font-family: "Space Grotesk", Inter, system-ui, sans-serif;
   font-size: 1.5rem;
@@ -76,17 +79,24 @@
 .navbar-sidebar .wmac-brand { padding: 0.5rem 0; }
 .wmac-brand {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.85rem;
-  padding: 0.35rem 0.9rem 0.35rem 0;
+  padding: 0 0.9rem 0 0;
   color: #0b2a3c;
   text-decoration: none;
   white-space: nowrap;
 }
 .wmac-brand:hover { color: #0b2a3c; text-decoration: none; }
+.wmac-brand__mark {
+  width: 80px;
+  height: 80px;
+  flex: none;
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba(15, 36, 51, 0.18));
+}
 .wmac-brand__acronym {
   font-family: "Space Grotesk", Inter, system-ui, sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   line-height: 1;
@@ -96,7 +106,7 @@
   position: relative;
   padding-left: 0.85rem;
   font-family: Inter, system-ui, sans-serif;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 400;
   letter-spacing: 0.01em;
   color: #1f4a5f;
@@ -113,7 +123,79 @@
   transform: translateY(-50%);
 }
 @media (max-width: 996px) {
+  :root { --ifm-navbar-height: 4.5rem; }
   .wmac-brand { white-space: normal; }
+  .wmac-brand__mark { width: 52px; height: 52px; }
   .wmac-brand__name { font-size: 0.9rem; line-height: 1.2; }
   .wmac-brand__acronym { font-size: 1.3rem; }
 }
+
+/* ---------- left sidebar: logo mark + edition timeline ---------- */
+:root { --doc-sidebar-width: 262px !important; }
+.theme-doc-sidebar-menu { padding-top: 0.6rem; }
+
+.menu__list-item.edition { position: relative; margin: 0; }
+/* the timeline rail */
+.menu__list-item.edition::before {
+  content: "";
+  position: absolute;
+  left: 17px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #d8e3ea;
+  z-index: 1;
+  pointer-events: none;
+}
+.menu__list-item.edition-2027::before { top: 50%; }
+.menu__list-item.edition-2025::before { bottom: 50%; }
+
+.edition .menu__link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  margin: 0.2rem 0 0.2rem 0.25rem;
+  padding: 0.55rem 0.75rem 0.55rem 2.45rem;
+  border-radius: 12px;
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #0b2a3c;
+}
+/* the node */
+.edition .menu__link::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 0.95rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #0e8ea6;
+  box-shadow: 0 0 0 3px #fff;
+  z-index: 2;
+}
+/* the context line */
+.edition .menu__link::after {
+  display: block;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 450;
+  letter-spacing: 0.01em;
+  color: #51697a;
+}
+.edition-2027 .menu__link::after { content: "Montréal · Feb 22–23"; }
+.edition-2026 .menu__link::after { content: "Singapore · Jan 20"; }
+.edition-2025 .menu__link::after { content: "Philadelphia · Mar 4"; }
+
+.edition .menu__link:hover { background: #f1f5f9; color: #0b2a3c; }
+.edition .menu__link--active {
+  background: #e8f3f6;
+  color: #0b2a3c;
+}
+.edition .menu__link--active::before { background: #0e8ea6; }
+.edition .menu__link--active::after { color: #1f4a5f; }

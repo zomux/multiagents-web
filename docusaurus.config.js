@@ -90,7 +90,7 @@ const config = {
           {
             type: 'html',
             position: 'left',
-            value: '<a class="wmac-brand" href="/" aria-label="WMAC home"><span class="wmac-brand__acronym">WMAC</span><span class="wmac-brand__name">Workshop on <strong>Multi-Agent Collaboration</strong></span></a>',
+            value: '<a class="wmac-brand" href="/" aria-label="WMAC home"><img class="wmac-brand__mark" src="/img/logo_small_transparent.png" alt="" width="80" height="80" /><span class="wmac-brand__acronym">WMAC</span><span class="wmac-brand__name">Workshop on <strong>Multi-Agent Collaboration</strong></span></a>',
           },
         ],
       },
