@@ -38,6 +38,14 @@ const config = {
     locales: ['en'],
   },
 
+  // Fonts used by the WMAC 2027 page.
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap',
+      type: 'text/css',
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -49,7 +57,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           // editUrl:
             // `https://github.com/${organizationName}/${projectName}/tree/main/`,
-          routeBasePath: '/'
+          routeBasePath: '/',
+          // Year tabs in the sidebar and per-year tab bars replace the breadcrumb trail.
+          breadcrumbs: false,
         },
         pages: {
           path: 'src/pages',
@@ -67,38 +77,20 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'light'
-        // respectPrefersColorScheme: true,
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
-        title: 'WMAC — Workshop on Multi-Agent Collaboration',
-        // logo: {
-        //   alt: 'WMAC logo',
-        //   src: 'img/logo_small.png',
-        // },
+        // The wordmark below replaces the plain title; the bar's artwork is set in custom.css.
+        title: 'WMAC', // shown on narrow screens, where navbar items collapse into the drawer
         items: [
           {
-            to: '/2027/',
-            label: '2027 Call for Papers',
-            position: 'right',
-          },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {
-          //   href: 'javascript:',
-          //   label: 'Submit Paper',
-          //   position: 'right',
-          // },
-          {
-            href: 'https://aaai.org/conference/aaai/',
-            label: 'AAAI',
-            position: 'right',
+            type: 'html',
+            position: 'left',
+            value: '<a class="wmac-brand" href="/" aria-label="WMAC home"><img class="wmac-brand__mark" src="/img/logo_small_transparent.png" alt="" width="80" height="80" /><span class="wmac-brand__acronym">WMAC</span><span class="wmac-brand__name">Workshop on <strong>Multi-Agent Collaboration</strong></span></a>',
           },
         ],
       },

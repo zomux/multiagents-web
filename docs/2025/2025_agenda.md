@@ -3,7 +3,14 @@ sidebar_position: 2
 hide_table_of_contents: true
 title: 2025 - Workshop Agenda
 slug: /2025-agenda
+sidebar_label: Workshop Agenda
+pagination_prev: null
+pagination_next: null
 ---
+
+import YearTabs from '@site/src/components/YearTabs';
+
+<YearTabs year={2025} />
 
 :::info
 <div style={{display: 'flex', alignItems: 'center', gap: '2rem'}}>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
+import YearTabs from '@site/src/components/YearTabs';
 
 // Generate photo list dynamically
 const photos = [
@@ -207,6 +208,7 @@ export default function PhotoGallery() {
     >
       <main style={{ padding: '2rem 0' }}>
         <div className="container">
+          <YearTabs year={2026} />
           <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>
             WMAC 2026 Photo Gallery
           </h1>
