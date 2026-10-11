@@ -208,7 +208,6 @@ function Person({person, variant}) {
       <h3>{person.name}</h3>
       <p className={styles.aff}>{person.affiliation}{person.role && <> · {person.role}</>}</p>
       <p className={clsx(styles.bio, variant === 'speaker' && styles.bioCenter)}>{person.bio}</p>
-      {person.email && <a href={`mailto:${person.email}`}>{person.email}</a>}
     </article>
   );
 }
@@ -341,7 +340,7 @@ export default function CFP2027() {
           <img src="/2027/wmac-logo.png" alt="" width="72" height="72" />
           <div>
             <h2 className={styles.h2}>Questions?</h2>
-            <p>Contact the workshop chair <a href="mailto:raphael@uaca.com">Raphael Shu</a> or <a href="mailto:alborzgeramifard@gmail.com">Alborz Geramifard</a>.</p>
+            <p>Contact the workshop chair Raphael Shu or Alborz Geramifard.</p>
           </div>
         </div>
       </section>
