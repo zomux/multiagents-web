@@ -155,10 +155,9 @@ function Hero() {
     <header className={styles.hero}>
       <div className={styles.heroBg} aria-hidden="true"><canvas ref={canvas} /></div>
       <div className={clsx(styles.wrap, styles.heroInner)}>
-        <img className={styles.heroLogo} src="/2027/wmac-logo.png" alt="WMAC logo: a network of connected agents" width="190" height="186" />
         <div>
           <p className={styles.eyebrow}>AAAI-27 Workshop · Third edition of WMAC</p>
-          <h1 className={styles.title}>Measuring Collective Intelligence <span className={styles.grad}>in Agentic Systems</span></h1>
+          <h1 className={styles.title}>Measuring Collective Intelligence in Agentic Systems</h1>
           <ul className={styles.facts}>
             <li><svg viewBox="0 0 24 24"><path d="M7 2v3M17 2v3M3 9h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>February 22–23, 2027 <small>(one-day workshop; exact day TBD)</small></li>
             <li><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Montréal, Canada · co-located with AAAI-27</li>
@@ -169,7 +168,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <a className={styles.credit} href="https://unsplash.com/photos/PND3BaH9FeE">Montréal · Photo: Hamed Naji / Unsplash</a>
+      <span className={styles.credit}>Palais des congrès de Montréal · AAAI-27 venue</span>
       <Countdown />
     </header>
   );

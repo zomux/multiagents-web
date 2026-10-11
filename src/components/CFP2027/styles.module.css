@@ -33,34 +33,36 @@
 /* ---------- hero ---------- */
 .hero {
   position: relative;
-  padding: 40px 0 0;
+  padding: 28px 0 0;
   color: #eef5fa;
-  background: #071b32 url('/2027/montreal-skyline.webp') center 60% / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 2.9 / 1; /* wide, short crop of the venue photo */
+  background: #071b32 url('/2027/palais-des-congres.webp') center 100% / cover no-repeat;
   isolation: isolate;
   border-radius: 18px 18px 0 0;
   margin-bottom: 64px; /* room for the countdown card that hangs below the hero */
 }
 .hero::before {
   content: ""; position: absolute; inset: 0; z-index: 0;
-  background: linear-gradient(100deg, rgba(6,24,44,.94) 0%, rgba(6,24,44,.84) 45%, rgba(6,24,44,.55) 100%);
+  background: linear-gradient(100deg, rgba(6,24,44,.8) 0%, rgba(6,24,44,.62) 38%, rgba(6,24,44,.28) 68%, rgba(6,24,44,.12) 100%);
 }
-.heroBg { position: absolute; inset: 0; z-index: 1; opacity: .5; overflow: hidden; }
+.heroBg { position: absolute; inset: 0; z-index: 1; opacity: .35; overflow: hidden; }
 .heroBg canvas { width: 100%; height: 100%; display: block; }
-.heroInner { position: relative; z-index: 2; display: grid; grid-template-columns: auto 1fr; gap: 40px; align-items: center; }
+.heroInner { position: relative; z-index: 2; max-width: 760px; flex: 1; display: flex; flex-direction: column; justify-content: center; }
 .heroLogo { width: 150px; height: auto; background: #fff; border-radius: 24px; padding: 12px; box-shadow: 0 12px 30px rgba(0,0,0,.35); }
-.eyebrow { font: 600 13px var(--font-body); letter-spacing: .12em; text-transform: uppercase; color: #7fd6ec; margin: 0 0 14px; }
-.title { font-size: clamp(30px, 4.2vw, 46px); letter-spacing: -.02em; color: #fff; margin-bottom: 18px; }
+.eyebrow { font: 600 13px var(--font-body); letter-spacing: .12em; text-transform: uppercase; color: #9fe3f3; margin: 0 0 10px; text-shadow: 0 1px 6px rgba(0,0,0,.5); }
+.title { font-size: clamp(28px, 3.6vw, 40px); letter-spacing: -.02em; color: #fff; margin-bottom: 14px; text-shadow: 0 2px 12px rgba(0,0,0,.45); }
 .grad { background: linear-gradient(100deg, #6fd3f5, #7be3b0); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .lede { font-size: 19px; color: #c9d8e6; max-width: 640px; margin: 18px 0 22px; }
-.facts { list-style: none; padding: 0; margin: 0 0 20px; display: grid; gap: 6px; }
-.facts li { display: flex; align-items: center; gap: 10px; font-weight: 500; }
+.facts { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 4px; }
+.facts li { display: flex; align-items: center; gap: 10px; font-weight: 500; text-shadow: 0 1px 6px rgba(0,0,0,.5); }
 .facts svg { width: 20px; height: 20px; fill: none; stroke: #7fd6ec; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 .facts small { color: #c9d8e6; font-weight: 400; }
 .credit {
   position: absolute; right: 16px; top: 12px; z-index: 2;
-  color: #c9d8e6; font-size: 11px; text-decoration: none; opacity: .8;
+  color: #dbe7f0; font-size: 11px; opacity: .85; text-shadow: 0 1px 3px rgba(0,0,0,.6);
 }
-.credit:hover { color: #fff; text-decoration: underline; }
 
 .cta { display: flex; gap: 12px; flex-wrap: wrap; }
 .cta.center { justify-content: center; margin-top: 36px; }
@@ -74,7 +76,7 @@
 .btn.ghost { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.35); color: #fff; }
 .btn.ghost:hover { color: #fff; background: rgba(255,255,255,.16); }
 
-.countdownWrap { position: relative; z-index: 2; width: 100%; max-width: 1120px; margin: 28px auto 0; padding-inline: clamp(16px, 3vw, 36px); transform: translateY(50%); }
+.countdownWrap { position: relative; z-index: 2; width: 100%; max-width: 1120px; margin: 16px auto 0; padding-inline: clamp(16px, 3vw, 36px); transform: translateY(50%); }
 .countdown {
   display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
   background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 16px; padding: 18px 28px; box-shadow: var(--shadow);
@@ -222,9 +224,7 @@ a.ed:hover { transform: translateY(-3px); box-shadow: var(--shadow); text-decora
   .newGrid { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {
-  .hero { padding-top: 44px; }
-  .heroInner { grid-template-columns: 1fr; gap: 24px; }
-  .heroLogo { width: 120px; border-radius: 20px; padding: 10px; }
+  .hero { padding-top: 44px; aspect-ratio: auto; }
   .credit { top: auto; bottom: 8px; right: 12px; }
   .speakers .person, .orgs .person { flex-basis: 100%; }
   .cards, .editions { grid-template-columns: 1fr; }
