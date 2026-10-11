@@ -202,6 +202,7 @@ a.ed:hover { transform: translateY(-3px); box-shadow: var(--shadow); text-decora
 /* ---------- contact ---------- */
 .contact { display: flex; align-items: center; gap: 24px; justify-content: center; text-align: left; }
 .contact p { margin: 0; color: var(--muted); }
+.contactPhoto { flex: none; width: 88px; height: 88px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 3px solid var(--surface); box-shadow: var(--shadow); }
 
 /* ---------- motion & polish ---------- */
 .reveal { transition: opacity .6s ease, transform .6s ease; }

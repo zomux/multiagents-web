@@ -342,6 +342,7 @@ export default function CFP2027() {
             <h2 className={styles.h2}>Questions?</h2>
             <p>Contact the workshop chair Raphael Shu.</p>
           </div>
+          <img className={styles.contactPhoto} src="/2027/raphael_shu.webp" alt="Raphael Shu" width="88" height="88" />
         </div>
       </section>
 
