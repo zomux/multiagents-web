@@ -34,3 +34,86 @@
 .hidden {
   display: none !important;
 }
+/* ---------- top bar: network-wave artwork + WMAC wordmark ---------- */
+:root { --ifm-navbar-height: 5.25rem; } /* taller bar; keeps the sidebar offset in sync */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #eef7fb url('/img/navbar-banner.webp') center / cover no-repeat;
+  box-shadow: none;
+  overflow: hidden;
+}
+/* Soft wash: lifts the wordmark off the artwork on the left and melts the
+   bottom of the bar into the page so there is no hard edge. */
+.navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0) 22%, rgba(255,255,255,0) 42%, rgba(255,255,255,0.6) 74%, #fff 100%),
+    linear-gradient(to right, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.5) 28%, rgba(255,255,255,0) 52%);
+}
+/* Thin accent hairline that fades out to the right. */
+.navbar::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2px;
+  pointer-events: none;
+  background: linear-gradient(to right, #0e8ea6, #2fa37a 35%, rgba(47,163,122,0) 85%);
+  opacity: 0.55;
+}
+.navbar__inner { position: relative; z-index: 1; align-items: center; }
+.navbar__title {
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #0b2a3c;
+}
+@media (min-width: 997px) { .navbar__title { display: none; } }
+.navbar-sidebar .wmac-brand { padding: 0.5rem 0; }
+.wmac-brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  padding: 0.35rem 0.9rem 0.35rem 0;
+  color: #0b2a3c;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.wmac-brand:hover { color: #0b2a3c; text-decoration: none; }
+.wmac-brand__acronym {
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  color: #0b2a3c;
+}
+.wmac-brand__name {
+  position: relative;
+  padding-left: 0.85rem;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #1f4a5f;
+}
+.wmac-brand__name strong { font-weight: 650; color: #0b2a3c; }
+.wmac-brand__name::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 1.35rem;
+  background: linear-gradient(#0e8ea6, #2fa37a);
+  transform: translateY(-50%);
+}
+@media (max-width: 996px) {
+  .wmac-brand { white-space: normal; }
+  .wmac-brand__name { font-size: 0.9rem; line-height: 1.2; }
+  .wmac-brand__acronym { font-size: 1.3rem; }
+}

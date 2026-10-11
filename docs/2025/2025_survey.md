@@ -1,9 +1,16 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 hide_table_of_contents: true
 title: 2025 - Survey
 slug: /2025-survey
+sidebar_label: Survey
+pagination_prev: null
+pagination_next: null
 ---
+
+import YearTabs from '@site/src/components/YearTabs';
+
+<YearTabs year={2025} />
 
 # Workshop Survey
 

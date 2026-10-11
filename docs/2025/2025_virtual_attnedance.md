@@ -1,9 +1,16 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 hide_table_of_contents: true
 title: 2025 - Virtual Attendance Guide
 slug: /2025-virtual-attendance
+sidebar_label: Virtual Attendance Guide
+pagination_prev: null
+pagination_next: null
 ---
+
+import YearTabs from '@site/src/components/YearTabs';
+
+<YearTabs year={2025} />
 
 # Virtual Attendance Guidelines
 

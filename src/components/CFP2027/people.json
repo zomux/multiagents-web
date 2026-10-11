@@ -7,6 +7,12 @@
       "image": "michael_wooldridge"
     },
     {
+      "name": "Samy Bengio",
+      "affiliation": "Apple · EPFL",
+      "bio": "How capability scales as AI systems grow more composite.",
+      "image": "samy_bengio"
+    },
+    {
       "name": "Mikaela Grace",
       "affiliation": "Anthropic",
       "bio": "How deployed agents coordinate in practice, and where coordination breaks."

@@ -2,8 +2,15 @@
 sidebar_position: 1
 hide_table_of_contents: true
 title: WMAC 2025 Takeaways
-slug: 2025_takeaway
+slug: /posts/2025_takeaway
+sidebar_label: Takeaways
+pagination_prev: null
+pagination_next: null
 ---
+
+import YearTabs from '@site/src/components/YearTabs';
+
+<YearTabs year={2025} />
 
 # WMAC 2025: Key Takeaways
 

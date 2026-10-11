@@ -1,9 +1,16 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 hide_table_of_contents: true
 title: 2025 - Presenter Guidance
 slug: /2025-presenter-guidance
+sidebar_label: Presenter Guidance
+pagination_prev: null
+pagination_next: null
 ---
+
+import YearTabs from '@site/src/components/YearTabs';
+
+<YearTabs year={2025} />
 
 # Presenter Guidelines
 
