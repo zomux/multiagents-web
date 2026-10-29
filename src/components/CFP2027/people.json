@@ -39,7 +39,7 @@
   "organizers": [
     {
       "name": "Raphael Shu",
-      "affiliation": "OpenAgents",
+      "affiliation": "Salesforce · OpenAgents",
       "bio": "Principal Scientist working on AI agents. PhD, University of Tokyo (2020). Led Dialog2API and agentic capability development for the Titan LLM at AWS. ACL 2017 Outstanding Paper Award. Chaired WMAC 2025 and 2026.",
       "role": "Workshop chair",
       "image": "raphael_shu"
