@@ -24,6 +24,12 @@
       "image": "bo_an"
     },
     {
+      "name": "Joel Z. Leibo",
+      "affiliation": "Google DeepMind · King's College London",
+      "bio": "What Melting Pot and Concordia reveal about multi-agent cooperation, and what they still miss.",
+      "image": "joel_leibo"
+    },
+    {
       "name": "Noah Goodman",
       "affiliation": "Stanford University",
       "bio": "The cognitive-science view of collective reasoning.",
