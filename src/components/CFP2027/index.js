@@ -211,7 +211,6 @@ function Person({person, variant}) {
       {link(face)}
       <h3>{link(person.name)}</h3>
       <p className={styles.aff}>{person.affiliation}{person.role && <> · {person.role}</>}</p>
-      {person.status && <span className={clsx(styles.status, styles['status' + person.status])}>{person.status}</span>}
       <p className={clsx(styles.bio, variant === 'speaker' && styles.bioCenter)}>{person.bio}</p>
     </article>
   );

@@ -8,3 +8,4 @@
 - `john_horton.webp`: Portrait from John Horton's academic website (https://john-joseph-horton.com/), added November 7, 2026. Copyright remains with the owner (Caitlin Cunningham Photography). Resized and converted to WebP.
 - `ajung_moon.webp`: Portrait from AJung Moon's website (https://www.ajungmoon.com/), added November 7, 2026. Copyright remains with the owner (photo credit Martin Dee). Head crop, resized and converted to WebP.
 - `anita_woolley.webp`: Portrait from Anita Williams Woolley's website (https://sites.google.com/view/anitawoolley-com), added November 7, 2026. Copyright remains with the owner. Resized and converted to WebP.
+- `alborz_geramifard.webp`: replaced November 7, 2026 with the portrait from alborz-geramifard.com (user's own photo), square crop on white, resized and converted to WebP.

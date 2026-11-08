@@ -137,7 +137,8 @@
 /* ---------- people ---------- */
 .people { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; }
 .speakers .person { flex: 0 1 calc((100% - 72px) / 4); }
-.orgs .person { flex: 0 1 calc((100% - 48px) / 3); text-align: left; }
+.orgs .person { flex: 0 1 calc((100% - 96px) / 5); text-align: left; }
+.orgs .bio { font-size: 13.5px; }
 .person { padding: 12px 10px; text-align: center; transition: .2s; }
 .person:hover { transform: translateY(-3px); }
 .person:hover img, .person:hover .initials { box-shadow: 0 0 0 2px var(--accent), var(--shadow); }
@@ -152,13 +153,7 @@
 .orgs .person img, .orgs .initials { margin-left: 0; }
 .initials { display: grid; place-items: center; background: var(--grad); color: #06202b; font: 700 38px var(--font-display); }
 .person h3 { font-size: 19px; }
-.aff { margin: 4px 0 8px; color: var(--accent); font-size: 14px; font-weight: 600; }
-.status { display: inline-block; margin: 0 0 10px; padding: 3px 10px; border-radius: 99px; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--line); color: var(--muted); background: var(--bg-alt); }
-.statusConfirmed { color: #1b7f4f; border-color: #bfe3cf; background: #e8f6ee; }
-.statusTentative { color: #9a6400; border-color: #f1dca8; background: #fdf5e0; }
-.statusInvited { color: var(--muted); }
-[data-theme='dark'] .statusConfirmed { color: #7fd6a3; border-color: #1f4d35; background: #10281c; }
-[data-theme='dark'] .statusTentative { color: #f0c36a; border-color: #5a4310; background: #2a2008; }
+.aff { margin: 4px 0 10px; color: var(--accent); font-size: 14px; font-weight: 600; }
 .bio { margin: 0; color: var(--muted); font-size: 14.5px; text-align: left; }
 .bioCenter { text-align: center; }
 
