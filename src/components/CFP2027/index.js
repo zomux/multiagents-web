@@ -6,6 +6,7 @@ import styles from './styles.module.css';
 import people from './people.json';
 
 const OPENREVIEW = 'https://openreview.net/group?id=AAAI.org/2027/Workshop/WMAC';
+const DEMO_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSfoHAuv6psEZlBpTCQIXwheP4iQVBC9Z_FzYxemmRX5bIvXYQ/viewform';
 const DESCRIPTION = 'WMAC 2027: an AAAI-27 workshop on measuring collective intelligence in multi-agent and sub-agent systems. Montréal, February 22–23, 2027.';
 const EVENT_JSONLD = JSON.stringify({
   '@context': 'https://schema.org',
@@ -320,11 +321,12 @@ export default function CFP2027() {
             <li><b>Double-blind review</b> on OpenReview, with three reviews per paper.</li>
             <li><b>Best Student Paper Award</b> for master's and PhD students.</li>
             <li>Expected: 40–50 submissions, roughly 15–20 accepted. Three oral talks, the rest posters, each with a short lightning pitch.</li>
-            <li><b>Industry demos</b> welcome. Presenters should prepare a recorded fallback.</li>
+            <li><b>Industry demos.</b> Teams with deployed multi-agent systems can <Link href={DEMO_FORM}>apply for a live demo slot</Link> by November 30. Presenters must attend in person and should prepare a recorded fallback.</li>
           </ul>
         </div>
         <div className={clsx(styles.cta, styles.center)}>
           <Link className={clsx(styles.btn, styles.primary)} href={OPENREVIEW}>Submit your paper on OpenReview <span aria-hidden="true">↗</span></Link>
+          <Link className={styles.btn} href={DEMO_FORM}>Apply for an industry demo <span aria-hidden="true">↗</span></Link>
         </div>
       </Section>
 
