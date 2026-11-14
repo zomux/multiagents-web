@@ -36,6 +36,7 @@
       "name": "Aaron Courville",
       "affiliation": "Mila · Université de Montréal",
       "bio": "Learning robust social strategies with LLM agents.",
+      "image": "aaron_courville",
       "url": "https://mila.quebec/en/directory/aaron-courville",
       "status": "Invited"
     },
@@ -43,6 +44,7 @@
       "name": "Joelle Pineau",
       "affiliation": "Cohere · McGill University · Mila",
       "bio": "Reproducibility in AI research: what it takes to measure progress you can trust.",
+      "image": "joelle_pineau",
       "url": "https://www.cs.mcgill.ca/~jpineau/",
       "role": "Panelist",
       "status": "Invited"
@@ -51,6 +53,7 @@
       "name": "Ilan Bigio",
       "affiliation": "OpenAI",
       "bio": "Building agent tooling at OpenAI: how multi-agent systems work in practice.",
+      "image": "ilan_bigio",
       "url": "https://ilanbigio.com",
       "role": "Panelist",
       "status": "Invited"
