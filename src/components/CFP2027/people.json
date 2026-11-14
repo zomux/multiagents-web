@@ -33,28 +33,25 @@
       "status": "Tentative"
     },
     {
-      "name": "Anita Williams Woolley",
-      "affiliation": "Carnegie Mellon University",
-      "bio": "Creator of the “c factor,” the canonical measure of collective intelligence in groups.",
-      "image": "anita_woolley",
-      "url": "https://sites.google.com/view/anitawoolley-com",
+      "name": "Aaron Courville",
+      "affiliation": "Mila · Université de Montréal",
+      "bio": "Learning robust social strategies with LLM agents.",
+      "url": "https://mila.quebec/en/directory/aaron-courville",
       "status": "Invited"
     },
     {
-      "name": "John Horton",
-      "affiliation": "MIT",
-      "bio": "LLM agents as economic agents: markets, incentives and what economics says about measuring them.",
-      "image": "john_horton",
-      "url": "https://www.john-joseph-horton.com/",
+      "name": "Joelle Pineau",
+      "affiliation": "Cohere · McGill University · Mila",
+      "bio": "Reproducibility in AI research: what it takes to measure progress you can trust.",
+      "url": "https://www.cs.mcgill.ca/~jpineau/",
       "role": "Panelist",
       "status": "Invited"
     },
     {
-      "name": "AJung Moon",
-      "affiliation": "McGill University · Mila",
-      "bio": "Human-robot interaction and AI ethics: how AI shapes people’s decisions, and how to measure it.",
-      "image": "ajung_moon",
-      "url": "https://www.ajungmoon.com/",
+      "name": "Ilan Bigio",
+      "affiliation": "OpenAI",
+      "bio": "Building agent tooling at OpenAI: how multi-agent systems work in practice.",
+      "url": "https://ilanbigio.com",
       "role": "Panelist",
       "status": "Invited"
     }
