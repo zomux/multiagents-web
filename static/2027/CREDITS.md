@@ -9,3 +9,6 @@
 - `ajung_moon.webp`: Portrait from AJung Moon's website (https://www.ajungmoon.com/), added November 7, 2026. Copyright remains with the owner (photo credit Martin Dee). Head crop, resized and converted to WebP.
 - `anita_woolley.webp`: Portrait from Anita Williams Woolley's website (https://sites.google.com/view/anitawoolley-com), added November 7, 2026. Copyright remains with the owner. Resized and converted to WebP.
 - `alborz_geramifard.webp`: replaced November 7, 2026 with the portrait from alborz-geramifard.com (user's own photo), square crop on white, resized and converted to WebP.
+- `aaron_courville.webp`: Portrait from Aaron Courville's Mila directory page (https://mila.quebec/en/directory/aaron-courville), added November 14, 2026. Copyright remains with the owner. Square head crop, resized and converted to WebP.
+- `joelle_pineau.webp`: Portrait from Joelle Pineau's Mila directory page (https://mila.quebec/en/directory/joelle-pineau), added November 14, 2026. Copyright remains with the owner. Square head crop, resized and converted to WebP.
+- `ilan_bigio.webp`: Profile photo from Ilan Bigio's X account (https://x.com/ilanbigio), added November 14, 2026; their personal site has no portrait. Copyright remains with the owner. Square crop, resized and converted to WebP.
