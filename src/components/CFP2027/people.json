@@ -39,15 +39,6 @@
       "image": "aaron_courville",
       "url": "https://mila.quebec/en/directory/aaron-courville",
       "status": "Confirmed"
-    },
-    {
-      "name": "Ilan Bigio",
-      "affiliation": "OpenAI",
-      "bio": "Building agent tooling at OpenAI: how multi-agent systems work in practice.",
-      "image": "ilan_bigio",
-      "url": "https://ilanbigio.com",
-      "role": "Panelist",
-      "status": "Invited"
     }
   ],
   "organizers": [
