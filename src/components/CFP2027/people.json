@@ -39,6 +39,15 @@
       "image": "aaron_courville",
       "url": "https://mila.quebec/en/directory/aaron-courville",
       "status": "Confirmed"
+    },
+    {
+      "name": "Kate Larson",
+      "affiliation": "University of Waterloo · Google DeepMind",
+      "bio": "Cooperative AI and multi-agent systems: how to evaluate agents that act together.",
+      "image": "kate_larson",
+      "url": "https://cs.uwaterloo.ca/~klarson/",
+      "role": "Panelist",
+      "status": "Confirmed"
     }
   ],
   "organizers": [
