@@ -188,7 +188,7 @@
   letter-spacing: 0.01em;
   color: #51697a;
 }
-.edition-2027 .menu__link::after { content: "Montréal · Feb 22–23"; }
+.edition-2027 .menu__link::after { content: "Montréal · Feb 23"; }
 .edition-2026 .menu__link::after { content: "Singapore · Jan 20"; }
 .edition-2025 .menu__link::after { content: "Philadelphia · Mar 4"; }
 

@@ -7,7 +7,7 @@ import people from './people.json';
 
 const OPENREVIEW = 'https://openreview.net/group?id=AAAI.org/2027/Workshop/WMAC';
 const DEMO_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSfoHAuv6psEZlBpTCQIXwheP4iQVBC9Z_FzYxemmRX5bIvXYQ/viewform';
-const DESCRIPTION = 'WMAC 2027: an AAAI-27 workshop on measuring collective intelligence in multi-agent and sub-agent systems. Montréal, February 22–23, 2027.';
+const DESCRIPTION = 'WMAC 2027: an AAAI-27 workshop on measuring collective intelligence in multi-agent and sub-agent systems. Montréal, February 23, 2027.';
 const EVENT_JSONLD = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Event',
@@ -33,7 +33,7 @@ const SECTIONS = [
 const MILESTONES = [
   ['Submissions due', 'November 20, 2026 · 23:59 AoE', '2026-11-20T23:59:00-12:00'],
   ['Notifications', 'December 2, 2026', '2026-12-02T23:59:00-12:00'],
-  ['Workshop begins', 'February 22, 2027', '2027-02-22T08:30:00-05:00'],
+  ['Workshop begins', 'February 23, 2027', '2027-02-23T08:30:00-05:00'],
 ];
 
 const TOPICS = [
@@ -71,7 +71,7 @@ const DATES = [
   ['Oct 2, 2026', 'Call for participation'],
   ['Nov 20, 2026', 'Paper submission deadline (23:59 AoE)', true],
   ['Dec 2, 2026', 'Notification of acceptance'],
-  ['Feb 22–23, 2027', 'Workshop, Montréal'],
+  ['Feb 23, 2027', 'Workshop, Montréal'],
 ];
 
 function initials(name) {
@@ -160,7 +160,7 @@ function Hero() {
           <p className={styles.eyebrow}>AAAI-27 Workshop · Third edition of WMAC</p>
           <h1 className={styles.title}>Measuring Collective Intelligence in Agentic Systems</h1>
           <ul className={styles.facts}>
-            <li><svg viewBox="0 0 24 24"><path d="M7 2v3M17 2v3M3 9h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>February 22–23, 2027 <small>(one-day workshop; exact day TBD)</small></li>
+            <li><svg viewBox="0 0 24 24"><path d="M7 2v3M17 2v3M3 9h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>Tuesday, February 23, 2027 <small>(one-day workshop)</small></li>
             <li><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Montréal, Canada · co-located with AAAI-27</li>
           </ul>
           <div className={styles.cta}>
