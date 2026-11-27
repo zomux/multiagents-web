@@ -48,6 +48,15 @@
       "url": "https://cs.uwaterloo.ca/~klarson/",
       "role": "Panelist",
       "status": "Confirmed"
+    },
+    {
+      "name": "Kevin Leyton-Brown",
+      "affiliation": "University of British Columbia",
+      "bio": "Game theory and AI: what the economics view says about LLMs as economic agents and how to evaluate them.",
+      "image": "kevin_leyton_brown",
+      "url": "https://www.cs.ubc.ca/~kevinlb/",
+      "role": "Panelist",
+      "status": "Confirmed"
     }
   ],
   "organizers": [
